@@ -1,4 +1,4 @@
-![cover](https://pic2.zhimg.com/v2-b77e62f2328e988eb1606cabad155977.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-b77e62f2328e988eb1606cabad155977.jpg)
 
 禁止转载。
 
@@ -69,21 +69,21 @@ Ps帧动画 -<“存储为Web所用格式”>→ .gif动画文件
 
 首先准备好你已制作完成的合成，然后菜单栏 -`图像合成`-`添加到渲染队列`（Ctrl+Shift+/）：
 
-![](https://pic3.zhimg.com/v2-43a1fa4812a7f682c5ff8bbd5ca63190.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-43a1fa4812a7f682c5ff8bbd5ca63190.jpg)
 
 找到刚才添加的合成，单击`输出组件`后的链接，打开`输出组件设置`窗口。在`基于“无损”`区域-`格式`选择`动画GIF`：
 
-![](https://pic3.zhimg.com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
 
 此时会弹出`动画GIF选项`窗口，按需调整，点`确定`：
 
 （该窗口除了`循环`以外的设置的作用我还不清楚，保持默认即可）
 
-![](https://pic4.zhimg.com/v2-d2dff1ebf23e3c3d09957360c8a1a041.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-d2dff1ebf23e3c3d09957360c8a1a041.jpg)
 
 确定所有设置后，单击合成的`输出到：`后的链接，指定一个你找得到的路径和文件名，作为GIF文件的输出位置。完成一切操作后，单击`渲染队列`面板右侧的`渲染`，开始导出GIF：
 
-![](https://pic2.zhimg.com/v2-ed216ebc66f9840cd012237bc42a6dea.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-ed216ebc66f9840cd012237bc42a6dea.jpg)
 
 **█ 注意**
 
@@ -91,7 +91,7 @@ Ps帧动画 -<“存储为Web所用格式”>→ .gif动画文件
 
 找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。`合成组名称`区域中的`分辨率`改为1/3、1/4等；再将`帧速率`区域中的`使用这个帧速率`选中，并为其指定一个更低的值（10~25）：
 
-![](https://pic6.zhimg.com/v2-8949ef58e69ffdb41f8e88a8c4077db0.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-8949ef58e69ffdb41f8e88a8c4077db0.jpg)
 
 ----
 
@@ -99,7 +99,7 @@ Ps帧动画 -<“存储为Web所用格式”>→ .gif动画文件
 
 自CS5版本开始，Ae不再支持导出GIF动画了，现在`渲染队列`-`输出模块`打开`输出组件设置`，在`主要选项`-`格式`中找不到`动画GIF`：
 
-![](https://pic6.zhimg.com/v2-6da37738cd74d11773d91f70734d991c.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-6da37738cd74d11773d91f70734d991c.jpg)
 
 [Adobe官方的用户指南](//helpx.adobe.com/cn/after-effects/user-guide.html) > [渲染和导出](//helpx.adobe.com/cn/after-effects/user-guide.html?topic=/cn/zh-Hans/after-effects/morehelp/exporting_publishing_rendering.ug.js) > [渲染和导出基础知识](//helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html) > [支持的输出格式](//helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html#supported_output_formats) 中提到：
 
@@ -125,25 +125,25 @@ Ps帧动画 -<“存储为Web所用格式”>→ .gif动画文件
 
 保存你的Ae项目文件，并将你的合成导出为QuickTime格式的视频（建议选用GoPro CineForm编码）：
 
-![](https://pic4.zhimg.com/v2-49bf6c1d1fab4c37f0acf938389d7f60.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-49bf6c1d1fab4c37f0acf938389d7f60.jpg)
 
 如果你需要制作带Alpha通道的GIF，就先从Ae导出带Alpha通道的视频，再导入Ps中做处理。
 
 导出Ae合成之前，单击`输出组件`后的链接，打开`输出组件设置`窗口。`主要选项`中，`格式`选择`QuickTime`，`视频输出`区域-`通道`选择`RGB+Alpha`（如果`RGB+Alpha`不可选，就需要切换到正确的编解码器，参考文末“注意事项”）：
 
-![](https://pic1.zhimg.com/v2-323514efb5034765077ebccbc448b4c7.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-323514efb5034765077ebccbc448b4c7.jpg)
 
 通常，GIF并不需要太高的帧率，你可以在导出前进行额外的设置（而不影响原合成）。找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。将`帧速率`区域中的`使用此帧速率`选中，并为其指定一个更低的值（10~25）：
 
-![](https://pic4.zhimg.com/v2-e5d634b270ce4e16e8c66dd401359885.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-e5d634b270ce4e16e8c66dd401359885.jpg)
 
 通常，GIF也并不需要太高的分辨率，但不建议在导入Ps前做处理，以下是对比：
 
-![](https://pic1.zhimg.com/v2-e221297f02e0cf6848789af4398681b4.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-e221297f02e0cf6848789af4398681b4.jpg)
 
 打开Ps，找到菜单栏 -`窗口`-`时间轴`以打开`时间轴`面板：
 
-![](https://pic3.zhimg.com/v2-a85386389e6ad1c75035ee7d276a5300.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-a85386389e6ad1c75035ee7d276a5300.jpg)
 
 接下来是“导入与处理”，目前有两条路，具体哪一种更好我还不清楚，请练习后自行选择：
 
@@ -151,11 +151,11 @@ Ps帧动画 -<“存储为Web所用格式”>→ .gif动画文件
 
 菜单栏 -`文件`-`导入`-`视频帧到图层`，找到并选中刚才导出的视频，单击`打开`：
 
-![](https://pic3.zhimg.com/v2-b3a354c0b757166b1fe3cc6da9fa6f95.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-b3a354c0b757166b1fe3cc6da9fa6f95.jpg)
 
 此时会弹出`将视频导入图层`窗口：
 
-![](https://pic3.zhimg.com/v2-45177e38db6a962e4ce2e5b0bac3b372.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-45177e38db6a962e4ce2e5b0bac3b372.jpg)
 
 你可以在右侧滑块处调整欲导入视频素材的范围；
 
@@ -171,7 +171,7 @@ $总帧数=\frac{1}{x}\times选取范围内素材帧数$
 
 完成设置后单击`确定`，此时可能会出现警告：
 
-![](https://pic4.zhimg.com/v2-bc937f67938eb4547053d6a90b98e457.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-bc937f67938eb4547053d6a90b98e457.jpg)
 
 意思是：
 
@@ -187,11 +187,11 @@ $总帧数=\frac{1}{x}\times选取范围内素材帧数$
 
 单击`时间轴`面板右上角按钮调出菜单 -`选择全部帧`：
 
-![](https://pic2.zhimg.com/v2-da7555d659d39b5acc92fcc4c5bcfed9.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-da7555d659d39b5acc92fcc4c5bcfed9.jpg)
 
 然后在任意一帧上单击那个持续时间-`其它...`，打开`设定帧延迟`窗口：
 
-![](https://pic2.zhimg.com/v2-3730b040a5fc44c68f6a9e5d64d3e113.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-3730b040a5fc44c68f6a9e5d64d3e113.jpg)
 
 这里你需要算出最终每帧应该有多少时长：
 
@@ -207,13 +207,13 @@ $默认每帧时长=\frac{1}{帧率}$
 
 菜单栏 -`文件`-`打开`（Ctrl+字母O），找到并选中刚才导出的视频，单击`打开`：
 
-![](https://pic2.zhimg.com/v2-15d8eaef2935db58f1a4e4467548b5d1.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-15d8eaef2935db58f1a4e4467548b5d1.jpg)
 
 你可以对这段素材进行更多的调整，右击`时间轴`面板-`视频组`中的图层，可以设置`速度`和`持续时间`：
 
 （`速度`与`持续时间`是两码事，但在调整时可能会互相影响，不清楚会不会影响到帧率等等，要谨慎）
 
-![](https://pic4.zhimg.com/v2-64aa7d9df1df3e31be4865560ec44394.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-64aa7d9df1df3e31be4865560ec44394.jpg)
 
 更多内容请参阅：[编辑视频和动画图层](//helpx.adobe.com/cn/photoshop/using/editing-video-animation-layers-photoshop.html)
 
@@ -221,22 +221,22 @@ $默认每帧时长=\frac{1}{帧率}$
 
 做好所有调整后，可以准备输出了。菜单栏 -`文件`-`导出`-`存储为Web所用格式（旧版）...`：
 
-![](https://pic2.zhimg.com/v2-1acba783f80c50e1e4e143f4f82a8710.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-1acba783f80c50e1e4e143f4f82a8710.jpg)
 
 （这个界面可能会很卡，操作不要太快，等等进度条）
 
 `存储为Web所用格式`窗口中有一些比较关键的设置：
 
-![](https://pic1.zhimg.com/v2-1e34e68f5ce6e341b240e856da6d8a12.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-1e34e68f5ce6e341b240e856da6d8a12.jpg)
 
 * `颜色`一般选择128或256，对比：
 
-![](https://pic1.zhimg.com/v2-5467cd906e45a48d0b313986a85a074d.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-5467cd906e45a48d0b313986a85a074d.jpg)
 
 * 如果要输出有Alpha通道的GIF，记得勾选`透明度`；
 * 为了导出体积较小但质量还行的GIF，可以适当调整`损耗`，在10~20之间都可以的，实验：
 
-![](https://pic1.zhimg.com/v2-80fd6fa615c17a1b0ef9890c2838391a.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-80fd6fa615c17a1b0ef9890c2838391a.jpg)
 
 * 通常，GIF并不需要太高的分辨率，可以在`图像大小`处按需调整（只调整`百分比`可能会比较方便）；
 * `动画`-`循环选项`，按需选择`一次`、`永远`或`其它...`；
@@ -249,7 +249,7 @@ $默认每帧时长=\frac{1}{帧率}$
 
 （建议你不要将GIF动画文件保存到存在非拉丁字符的路径）
 
-![](https://pic1.zhimg.com/v2-9e995dbfc6115cde8123d359b0abef0f.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-9e995dbfc6115cde8123d359b0abef0f.jpg)
 
 <br/>
 
@@ -269,7 +269,7 @@ $默认每帧时长=\frac{1}{帧率}$
 
 你可以从Ae直接启动AME：在Ae中选中你要导出的合成，然后菜单栏 -`文件`-`导出`-`添加到Adobe Media Encoder 队列...`（Ctrl+Alt+M）：
 
-![](https://pic3.zhimg.com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
 
 如果上述操作失败，或者你不愿意这么做，也可以：
 
@@ -279,11 +279,11 @@ $默认每帧时长=\frac{1}{帧率}$
 
 （图是Pr的，AME类似，下同）
 
-![](https://pic1.zhimg.com/v2-ea8789bcfbcfc5ae4c88bb599c827e15.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-ea8789bcfbcfc5ae4c88bb599c827e15.jpg)
 
 如果你导入的是Ae项目文件，就要在弹出的`导入After Effects合成`窗口中找到你需要的合成，选中它，单击`确定`：
 
-![](https://pic4.zhimg.com/v2-b30c19019fe6a8018cd4b66ed5cd7e33.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-b30c19019fe6a8018cd4b66ed5cd7e33.jpg)
 
 **█ （Pr跳过）在AME中准备进行导出设置**
 
@@ -291,7 +291,7 @@ $默认每帧时长=\frac{1}{帧率}$
 
 此时我的这个“输出”的设置是导出H.264编码的mp4文件，要进行调整——右击这个输出-`导出设置...`：
 
-![](https://pic2.zhimg.com/v2-2d493528940b13398368a54acc357e8f.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-2d493528940b13398368a54acc357e8f.jpg)
 
 **█ （AME跳过）在Pr中处理素材并准备进行导出设置**
 
@@ -301,7 +301,7 @@ $默认每帧时长=\frac{1}{帧率}$
 
 在“项目”面板中选中你要导出的素材或序列（仔细分辨哪一项是需要被导出的），菜单栏 -`导出`-`媒体`（Ctrl+M）：
 
-![](https://pic2.zhimg.com/v2-2077aa2a91c141f002c74ad4d1462a2b.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-2077aa2a91c141f002c74ad4d1462a2b.jpg)
 
 **█ 进行导出设置**
 
@@ -309,15 +309,15 @@ $默认每帧时长=\frac{1}{帧率}$
 
 （图是AME的，Pr类似，下同）
 
-![](https://pic2.zhimg.com/v2-5abcfb9712ac91173d4e025f4a899cd0.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-5abcfb9712ac91173d4e025f4a899cd0.jpg)
 
 单击`输出名称`后的链接，指定一个你找得到的路径和文件名，作为GIF文件的输出位置：
 
-![](https://pic4.zhimg.com/v2-ed46805de0091f6a925d2069500c70a2.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-ed46805de0091f6a925d2069500c70a2.jpg)
 
 通常，GIF并不需要太高的分辨率和帧率，你可以在导出前进行设置（而不影响素材或者Ae中的原合成）。将`基本视频设置`区域中`宽度`、`高度`后的勾去掉，并将他俩的值改小（参考左侧的预览框，按需、按比例调整）；再将`帧速率`后的勾去掉，并为其指定一个更低的值（10~15）：
 
-![](https://pic4.zhimg.com/v2-8bf2a32022b03d568fdf6f5a08553a82.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-8bf2a32022b03d568fdf6f5a08553a82.jpg)
 
 **█ （Pr跳过）从AME中导出**
 
@@ -325,7 +325,7 @@ $默认每帧时长=\frac{1}{帧率}$
 
 确保刚才你调整的这个输出的状态是`就绪`的，接着点绿色的`►（启动队列）`按钮，开始导出GIF：
 
-![](https://pic3.zhimg.com/v2-558a9d86f3687a998ae03bd839013f38.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-558a9d86f3687a998ae03bd839013f38.jpg)
 
 **█ （AME跳过）从Pr中导出**
 
@@ -335,7 +335,7 @@ $默认每帧时长=\frac{1}{帧率}$
 
 在“启动AME/Pr并导入文件”这一步导入Ae项目文件时，如果`导入After Effects合成`窗口中出现`无法打开项目`的提示，则说明Ae项目文件的版本高于AME/Pr的版本，无法完成导入：
 
-![](https://pic4.zhimg.com/v2-a7c5a130e8eeef81e8885fae739b1a85.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-a7c5a130e8eeef81e8885fae739b1a85.jpg)
 
 不过，也有解决这个问题的可能性，请参考文末“异常处理”xxxxxxxxxxx。
 
@@ -352,7 +352,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 * GifGun
 
-![](https://pic1.zhimg.com/v2-c910da30605361ebfccd27f695266eee.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-c910da30605361ebfccd27f695266eee.jpg)
 
 官方介绍页：[//aescripts.com/gifgun/](//aescripts.com/gifgun/)
 
@@ -364,7 +364,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 * Gif Magick
 
-![](https://pic3.zhimg.com/v2-a40036d08e1fbbda425288ee498a9b30.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-a40036d08e1fbbda425288ee498a9b30.jpg)
 
 官方介绍页：[//videohive.net/item/gif-magick-after-effects-script/14032323](//videohive.net/item/gif-magick-after-effects-script/14032323)
 
@@ -400,13 +400,13 @@ GoPro CineForm // 推荐使用 - 默认 Quality=4 即可
 // 以下的都是安装QuickTime后新增的，依然建议用GoPro CineForm
 JPEG 2000, PNG, Planar RGB, TGA, TIFF 
 ```
-![](https://pic3.zhimg.com/v2-17500d563567c06a58b094c9a991e584.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-17500d563567c06a58b094c9a991e584.jpg)
 
 * 如果你要使用序列帧取代QuickTime视频文件作为应用之间传递的文件，别用psd序列制作带Alpha的GIF，因为这依然会丢失Alpha通道信息（我不清楚原因）；
 * 如果你需要将GIF动画文件置于Web服务器、FTP服务器等位置，或者需要将GIF动画文件嵌入各平台应用程序内，请确认你的文件能够被相关程序逻辑正确地处理；
 * 本文中给出的各种方法都指向“从Ae导出GIF”这个目标，忽略了一路上大量其它的详细设置，所以需要你自己去查找、学习。首先你需要Adobe官方的用户指南，以Ae为例，在菜单栏 -“帮助”-“After Effects帮助...”（F1），在打开的网页里单击“用户指南”，开始学习：
 
-![](https://pic2.zhimg.com/v2-54025408ef9bdc3b480ed23ebdbcdad9.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-54025408ef9bdc3b480ed23ebdbcdad9.jpg)
 
 # 未解决的问题
 
@@ -415,7 +415,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * Pr/AME一定无法导出带Alpha的GIF了？
 * Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[//www.zhihu.com/question/62864730](//www.zhihu.com/question/62864730)）
 
-![](https://pic3.zhimg.com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
 ----
 
