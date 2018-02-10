@@ -31,7 +31,7 @@
 * 概述
 * 直接导出GIF（Ae CS5之前）
 * 用Adobe家其它软件辅助Ae导出GIF
-* 用Ae脚本导出GIF
+* 用Ae脚本导出GIF（仅介绍）
 * 异常处理
 * 注意事项
 * 未解决的问题
@@ -348,7 +348,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ----
 
-# 用Ae脚本导出GIF
+# 用Ae脚本导出GIF（仅介绍）
 
 * GifGun
 
