@@ -119,7 +119,7 @@ Ps帧动画 -<“存储为Web所用格式”>→ .gif动画文件
 
 操作耗时较长，且以`视频帧`方式导入的素材会从第500帧后截断（这并不代表只能做出500帧长度的GIF动画）
 
-*（Photoshop的整个逻辑我还没有完全弄明白，但目前已写出的内容是没有问题、经得起验证的）*
+*（Photoshop的逻辑我还没有完全弄明白，但目前已写出的内容是没有问题、经得起验证的）*
 
 **█ 首先**
 
@@ -189,7 +189,7 @@ $总帧数=\frac{1}{x}\times选取范围内素材帧数$
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-da7555d659d39b5acc92fcc4c5bcfed9.jpg)
 
-然后在任意一帧上单击那个持续时间-`其它...`，打开`设定帧延迟`窗口：
+然后在任意一帧上单击那个持续时间 -`其它...`，打开`设置帧延迟`窗口：
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-3730b040a5fc44c68f6a9e5d64d3e113.jpg)
 
