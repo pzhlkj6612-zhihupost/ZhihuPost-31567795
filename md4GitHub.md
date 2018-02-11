@@ -344,7 +344,55 @@ $默认每帧时长=\frac{1}{帧率}$
 * 相互比较
 
 经测试，AME与Pr导出的GIF效果几乎没有差别，所以就只用AME和Ps的来比较了。
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+源视频信息：
+```
+*Suffix               : .mov
+Format                : CineForm
+Codec ID/Info         : CineForm High-Definition (HD) wavelet codec
+Duration              : 3 s 840 ms
+*Frame Count          : 96
+Bit rate mode         : Variable
+Bit rate              : 98.4 Mb/s
+Width                 : 1 920 pixels
+Height                : 1 080 pixels
+Display aspect ratio  : 16:9
+Frame rate mode       : Constant
+Frame rate            : 25.000 FPS
+Color space           : YUV
+Scan type             : Progressive
+```
+AME导出配置：
+```
+Quality       : 100
+Width:Height  : 1920:1080 / 960:540 / 480:270
+Frame Rate    : 25
+Field Order   : Progressive
+Aspect Ratio  : 1.0
+```
+Ps导出配置：[界面名称参考](https://help.adobe.com/zh_CN/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)
+```
+优化
+  减低颜色深度算法  : 可选择
+  颜色              : 256
+  仿色算法          : 扩散
+  仿色              : 100%
+  透明度            : True
+  杂边              : #FFFFFF
+  透明度仿色        : 无透明度仿色
+  数量              : Disable
+  交错              : False
+  Web靠色           : 0%
+  损耗              : 0% / 15%
+  转换为sRGB        : True
+  预览              : 显示器颜色
+  元数据            : 版权和联系信息
+图像大小
+  W:H               : 1920:1080 / 960:540 / 480:270
+  品质              : 两次立方
+```
+
+
 
 ----
 
@@ -440,7 +488,9 @@ Ps->GIF其中的内容需要被研究并修正（视频图层 时间轴动画 �
 
 Ps视频图层“速度”与“持续时间”的关系，以及对帧率是否有影响；
 
-`将视频导入图层`窗口不选中`制作帧动画`，如何继续制作帧动画。
+`将视频导入图层`窗口不选中`制作帧动画`，如何继续制作帧动画；
+
+[Adobe Generator 4 GIF](https://helpx.adobe.com/cn/photoshop/kb/save_for_web_Photoshop_CC_2015.html#whats-changing)
 
 <br/>
 
