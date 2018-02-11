@@ -516,31 +516,39 @@ Ps视频图层“速度”与“持续时间”的关系，以及对帧率是否
 
 * 参考
 
-[//forums.adobe.com/thread/1236678](//forums.adobe.com/thread/1236678)
+[After Effects CC (CS7) - Adobe Community](//forums.adobe.com/thread/1236678)
 
-[//www.rocketstock.com/blog/making-animated-gifs-from-after-effects-comps/](//www.rocketstock.com/blog/making-animated-gifs-from-after-effects-comps/)
+[Making Animated GIFs From After Effects Comps](//www.rocketstock.com/blog/making-animated-gifs-from-after-effects-comps/)
 
-[//graphicdesign.stackexchange.com/questions/91994/how-to-export-a-gif-from-after-effects](//graphicdesign.stackexchange.com/questions/91994/how-to-export-a-gif-from-after-effects)
+[animation - How to export a GIF from After Effects- - Graphic Design Stack Exchange](//graphicdesign.stackexchange.com/questions/91994/how-to-export-a-gif-from-after-effects)
 
-[//www.videocopilot.net/forum/viewtopic.php?t=58672](//www.videocopilot.net/forum/viewtopic.php?t=58672)
+[VIDEO COPILOT - Export Animated GIF in After effects](//www.videocopilot.net/forum/viewtopic.php?t=58672)
 
-[//www.bilibili.com/video/av4612737/index_20.html#page=6](//www.bilibili.com/video/av4612737/index_20.html#page=6)
+[【展哥】如何制作GIF动图（初级） - 【After Effects教程】干货实用AE实例教程合集【doyoudo出品】(6)\_野生技术协会\_科技\_bilibili\_哔哩哔哩](//www.bilibili.com/video/av4612737/index_20.html#page=6)
 
-[//www.bilibili.com/video/av11696223/](//www.bilibili.com/video/av11696223/)
+[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](//www.bilibili.com/video/av11696223/)
 
-[//www.bilibili.com/video/av3732099/](//www.bilibili.com/video/av3732099/)
+[[MG动画教程]财神循环动画制作\_野生技术协会\_科技\_bilibili\_哔哩哔哩](//www.bilibili.com/video/av3732099/)
 
-[//zhuanlan.zhihu.com/p/23105036](//zhuanlan.zhihu.com/p/23105036)
+[GIF格式动画到底是怎么做出来的 - 知乎](//zhuanlan.zhihu.com/p/23105036)
 
 <br/>
 
-[//www.reddit.com/r/AfterEffects/comments/2x0sg1/how_can_i_export_a_transparent_gif/](//www.reddit.com/r/AfterEffects/comments/2x0sg1/how_can_i_export_a_transparent_gif/)
+[Photoshop CC 2015 中的“存储为 Web 所用格式”功能](//helpx.adobe.com/cn/photoshop/kb/save_for_web_Photoshop_CC_2015.html#whats-changing)
 
-[//graphicdesign.stackexchange.com/questions/94051/can-i-create-a-transparent-gif-with-after-effects/](//graphicdesign.stackexchange.com/questions/94051/can-i-create-a-transparent-gif-with-after-effects/)
+[Creative Suite * 优化图像](//help.adobe.com/zh_CN/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)
 
-[//www.zhihu.com/question/26993675/answer/89595667](//www.zhihu.com/question/26993675/answer/89595667)
+[GIF 和 PNG-8 优化选项 - Creative Suite * Web 图形优化选项](//help.adobe.com/zh_CN/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)
 
-[//www.zhihu.com/question/20757401](//www.zhihu.com/question/20757401)
+<br/>
+
+[How can I export a transparent .gif-：AfterEffects](//www.reddit.com/r/AfterEffects/comments/2x0sg1/how_can_i_export_a_transparent_gif/)
+
+[transparency - Can I create a transparent GIF with After Effects- - Graphic Design Stack Exchange](//graphicdesign.stackexchange.com/questions/94051/can-i-create-a-transparent-gif-with-after-effects/)
+
+[Ae怎么导出透明背景视频？ - 范鹏的回答 - 知乎](//www.zhihu.com/question/26993675/answer/89595667)
+
+[有哪些软件可以将一段视频在尽量保证原视频质量的情况下转成gif动图？ - 知乎](//www.zhihu.com/question/20757401)
 
 <br/>
 
