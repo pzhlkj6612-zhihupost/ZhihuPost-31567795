@@ -51,7 +51,7 @@ Ae合成 -<QuickTime(GoPro CineForm)>→ .mov视频文件 →
 
 .mov视频文件 -<“打开”>→ Ps视频图层 →
 
-Ps视频图层 -<“存储为Web所用格式”>→ .gif动画文件
+Ps视频图层 -<“存储为Web所用格式” 256色 15损耗>→ .gif动画文件
 ```
 
 <br/>
