@@ -240,7 +240,9 @@ Ps视频图层
 
 （在0损耗与15损耗下）
 
-![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-5467cd906e45a48d0b313986a85a074d.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-4d2699a7ef51eccd9ef931e4ba6d94b5.jpg)
+
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-f2ba803575eda32e8ee1faca89de778b.jpg)
 
 * 如果要输出有Alpha通道的GIF，记得勾选`透明度`；
 * 为了导出体积较小但质量还行的GIF，可以适当调整`损耗`，在10~20之间都可以的，实验：
