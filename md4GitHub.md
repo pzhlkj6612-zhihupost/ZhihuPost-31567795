@@ -48,19 +48,19 @@
 在当前最新版本软件中，从最终结果来看，以下路径是质量较高且过程简易的：
 
 ```
-Ae合成
-	|
-	|<QuickTime(GoPro CineForm)>
-	↓
-.mov视频文件
-	|
-	|<“打开”>
-	↓
-Ps视频图层
-	|
-	|<“存储为Web所用格式” 256色 15损耗>
-	↓
-.gif动画文件
+    Ae合成
+      |
+      |<QuickTime(GoPro CineForm)>
+      ↓
+    .mov视频文件
+      |
+      |<“打开”>
+      ↓
+    Ps视频图层
+      |
+      |<“存储为Web所用格式” 256色 15损耗>
+      ↓
+    .gif动画文件
 ```
 
 <br/>
@@ -363,17 +363,11 @@ Ps视频图层
 源视频信息：
 ```
 *Suffix               : .mov
-Format                : CineForm
 Codec ID/Info         : CineForm High-Definition (HD) wavelet codec
-Duration              : 3 s 840 ms
 *Frame Count          : 96
-Bit rate mode         : Variable
 Bit rate              : 98.4 Mb/s
-Width                 : 1 920 pixels
-Height                : 1 080 pixels
-Display aspect ratio  : 16:9
-Frame rate mode       : Constant
-Frame rate            : 25.000 FPS
+*Width:Height         : 1920 : 1080 pixels [16:9]
+Frame rate            : 25.000 FPS [Constant]
 Color space           : YUV
 Scan type             : Progressive
 ```
@@ -478,10 +472,10 @@ AME/Pr 100Quality 完整分辨率
 
 * QuickTime格式的支持Alpha通道（透明度信息）的编解码器有这些：
 ```
-DNxHR/DNxHD			// 不推荐使用 - 需要额外的复杂的设置
+DNxHR/DNxHD		// 不推荐使用 - 需要额外的复杂的设置
 GoPro CineForm		// 推荐使用 - 默认 Quality=4 即可
 动画（Animation）	// 没有GoPro CineForm就用这个
-无（None）			// 不推荐使用 - 浪费磁盘空间
+无（None）		// 不推荐使用 - 浪费磁盘空间
 
 // 以下的都是安装QuickTime后新增的，依然建议用GoPro CineForm
 JPEG 2000, PNG, Planar RGB, TGA, TIFF 
@@ -588,7 +582,7 @@ Ps视频图层“速度”与“持续时间”的关系，以及对帧率是否
 
 本文Beta之前：
 
-[呆槑](http://www.zhihu.com/people/95965bf3751fd054488859cc531533a8)、[Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d)、[@horbyn4zZ](http://www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246)、[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994)、[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d)、[@佘朝光](http://www.zhihu.com/people/b02e779bbc76647a26a7472cb6247fb4) 提供了全文检查。
+[@呆槑](http://www.zhihu.com/people/95965bf3751fd054488859cc531533a8)、[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d)、[@horbyn4zZ](http://www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246)、[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994)、[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d)、[@佘朝光](http://www.zhihu.com/people/b02e779bbc76647a26a7472cb6247fb4) 提供了全文检查。
 
 ----
 
