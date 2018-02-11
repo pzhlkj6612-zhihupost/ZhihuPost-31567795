@@ -391,9 +391,30 @@ Ps导出配置：[界面名称参考](https://help.adobe.com/zh_CN/creativesuite
   W:H               : 1920:1080 / 960:540 / 480:270
   品质              : 两次立方
 ```
+对比：
 
+1920:1080
 
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-3baee42f61b6562eb56eb4b40e91557d.jpg)
 
+960:540
+
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-d5fa349fa88d0d22012e891c57a8fec0.jpg)
+
+480:270
+
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-0c942631847206ea2c4b4931ca9950c0.jpg)
+
+结论：
+
+对于文件大小要求较高（比如知乎限制图片大小不得超过5MB）：
+```
+Ps 128/256色 15损耗 较低分辨率
+```
+最方便而且质量还不错：
+```
+AME/Pr 100Quality 完整分辨率
+```
 ----
 
 # 用Ae脚本导出GIF（仅介绍）
