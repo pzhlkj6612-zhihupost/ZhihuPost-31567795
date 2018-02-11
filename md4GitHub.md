@@ -49,9 +49,9 @@
 ```
 Ae合成 -<QuickTime(GoPro CineForm)>→ .mov视频文件 →
 
-.mov视频文件 -<“视频帧到图层”>→ Ps帧动画 →
+.mov视频文件 -<“打开”>→ Ps视频图层 →
 
-Ps帧动画 -<“存储为Web所用格式”>→ .gif动画文件
+Ps视频图层 -<“存储为Web所用格式”>→ .gif动画文件
 ```
 
 <br/>
