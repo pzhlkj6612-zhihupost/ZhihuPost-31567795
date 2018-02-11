@@ -337,7 +337,7 @@ $默认每帧时长=\frac{1}{帧率}$
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-a7c5a130e8eeef81e8885fae739b1a85.jpg)
 
-不过，也有解决这个问题的可能性，请参考文末“异常处理”xxxxxxxxxxx。
+不过，也有解决这个问题的可能性，请参考文末“[异常处理](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”。
 
 <br/>
 
