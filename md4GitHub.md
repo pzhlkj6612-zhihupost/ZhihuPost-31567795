@@ -8,11 +8,11 @@
 
 本文章内容由我的这个回答处理而来：
 
-[//www.zhihu.com/question/58159898/answer/167682476](//www.zhihu.com/question/58159898/answer/167682476)
+[https://www.zhihu.com/question/58159898/answer/167682476](https://www.zhihu.com/question/58159898/answer/167682476)
 
 本文章也存在于GitHub仓库：
 
-[//github.com/pzhlkj6612/ZhihuPaper-31567795](//github.com/pzhlkj6612/ZhihuPaper-31567795)
+[https://github.com/pzhlkj6612/ZhihuPaper-31567795](//github.com/pzhlkj6612/ZhihuPaper-31567795)
 
 <br/>
 
@@ -56,13 +56,13 @@ Ps视频图层 -<“存储为Web所用格式” 256色 15损耗>→ .gif动画�
 
 <br/>
 
-文中用到的视频素材来自：《[【大花豹】极乐净土](//www.bilibili.com/video/av10397269/)》《[50帧又何妨（25FPS已重传）](//www.bilibili.com/video/av9198307/)》
+文中用到的视频素材来自：《[【大花豹】极乐净土](https://www.bilibili.com/video/av10397269/)》《[50帧又何妨（25FPS已重传）](https://www.bilibili.com/video/av9198307/)》
 
 ----
 
 # 直接导出GIF（Ae CS5之前）
 
-早于Creative Suite 5([CS5(10.0)](//en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](//helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)）；
+早于Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)）；
 在这里我用Ae CS4(9.0.1)。
 
 **█ 操作**
@@ -101,7 +101,7 @@ Ps视频图层 -<“存储为Web所用格式” 256色 15损耗>→ .gif动画�
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-6da37738cd74d11773d91f70734d991c.jpg)
 
-[Adobe官方的用户指南](//helpx.adobe.com/cn/after-effects/user-guide.html) > [渲染和导出](//helpx.adobe.com/cn/after-effects/user-guide.html?topic=/cn/zh-Hans/after-effects/morehelp/exporting_publishing_rendering.ug.js) > [渲染和导出基础知识](//helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html) > [支持的输出格式](//helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html#supported_output_formats) 中提到：
+[Adobe官方的用户指南](https://helpx.adobe.com/cn/after-effects/user-guide.html) > [渲染和导出](https://helpx.adobe.com/cn/after-effects/user-guide.html?topic=/cn/zh-Hans/after-effects/morehelp/exporting_publishing_rendering.ug.js) > [渲染和导出基础知识](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html) > [支持的输出格式](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html#supported_output_formats) 中提到：
 
 > 要创建动画 GIF 格式的影片，请首先从 After Effects 渲染和导出 QuickTime 影片。然后，将 QuickTime 影片导入 Photoshop，并且将影片导出为动画 GIF。
 
@@ -199,7 +199,7 @@ Ps视频图层 -<“存储为Web所用格式” 256色 15损耗>→ .gif动画�
 
 ![](https://www.zhihu.com/equation?tex=%E9%BB%98%E8%AE%A4%E6%AF%8F%E5%B8%A7%E6%97%B6%E9%95%BF%3D%5Cfrac%7B1%7D%7B%E5%B8%A7%E7%8E%87%7D)
 
-你还可以做其它的调整，更多内容请参阅：[创建帧动画](//helpx.adobe.com/cn/photoshop/using/creating-frame-animations.html)
+你还可以做其它的调整，更多内容请参阅：[创建帧动画](https://helpx.adobe.com/cn/photoshop/using/creating-frame-animations.html)
 
 **█ 导入并处理 方法二 “视频图层”**
 
@@ -213,7 +213,7 @@ Ps视频图层 -<“存储为Web所用格式” 256色 15损耗>→ .gif动画�
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-64aa7d9df1df3e31be4865560ec44394.jpg)
 
-更多内容请参阅：[编辑视频和动画图层](//helpx.adobe.com/cn/photoshop/using/editing-video-animation-layers-photoshop.html)
+更多内容请参阅：[编辑视频和动画图层](https://helpx.adobe.com/cn/photoshop/using/editing-video-animation-layers-photoshop.html)
 
 **█ 导出**
 
@@ -423,11 +423,11 @@ AME/Pr 100Quality 完整分辨率
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-c910da30605361ebfccd27f695266eee.jpg)
 
-官方介绍页：[//aescripts.com/gifgun/](//aescripts.com/gifgun/)
+官方介绍页：[https://aescripts.com/gifgun/](https://aescripts.com/gifgun/)
 
-相关教程：[//www.ui.cn/detail/158270.html](//www.ui.cn/detail/158270.html)
+相关教程：[https://www.ui.cn/detail/158270.html](https://www.ui.cn/detail/158270.html)
 
-可能会出现的问题（暂无解决方法，可能是不支持Win7？）：[//zhidao.baidu.com/question/1370828323868744179.html](//zhidao.baidu.com/question/1370828323868744179.html)
+可能会出现的问题（暂无解决方法，可能是不支持Win7？）：[https://zhidao.baidu.com/question/1370828323868744179.html](https://zhidao.baidu.com/question/1370828323868744179.html)
 
 <br/>
 
@@ -435,15 +435,15 @@ AME/Pr 100Quality 完整分辨率
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-a40036d08e1fbbda425288ee498a9b30.jpg)
 
-官方介绍页：[//videohive.net/item/gif-magick-after-effects-script/14032323](//videohive.net/item/gif-magick-after-effects-script/14032323)
+官方介绍页：[https://videohive.net/item/gif-magick-after-effects-script/14032323](https://videohive.net/item/gif-magick-after-effects-script/14032323)
 
-相关教程：[//www.ui.cn/detail/159691.html](//www.ui.cn/detail/159691.html)
+相关教程：[https://www.ui.cn/detail/159691.html](https://www.ui.cn/detail/159691.html)
 
 <br/>
 
 * aw_PreviewGenerator
 
-官方介绍页：[//videohive.net/item/aw_previewgenerator-after-effects-script/14081377](//videohive.net/item/aw_previewgenerator-after-effects-script/14081377)
+官方介绍页：[https://videohive.net/item/aw_previewgenerator-after-effects-script/14081377](https://videohive.net/item/aw_previewgenerator-after-effects-script/14081377)
 
 暂无相关教程。
 
@@ -479,11 +479,11 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 
 # 未解决的问题
 
-* Ps中`时间轴`面板的`优化动画`选项有何用？[//helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames](//helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames)
-* [photoshop中帧动画和时间轴的区别](//zhidao.baidu.com/question/571446763.html)
+* Ps中`时间轴`面板的`优化动画`选项有何用？[https://helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames](https://helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames)
+* [photoshop中帧动画和时间轴的区别](https://zhidao.baidu.com/question/571446763.html)
 * Pr/AME一定无法导出带Alpha的GIF了？
 * Pr/AME对于动画“速度”的影响；
-* Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[//www.zhihu.com/question/62864730](//www.zhihu.com/question/62864730)）
+* Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
@@ -491,13 +491,13 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 
 # 推荐
 
-* GIF压缩：[GIF Compressor](//gifcompressor.com/)
-* 在线制作GIF的工具：[小猪动图](//www.piggif.com/tools/video)
-* Animated PNG(APNG)相关：[[转载]《再回眸，丽影如初》](//www.uisdc.com/introduction-of-apng-gif)
-* 是“渲染”还是“导出”：[在 After Effects CC 中进行渲染和导出的基础知识](//helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html)
-* 关于Ae的渲染：[AE 渲染加速的一些方法](//zhuanlan.zhihu.com/p/33730310)
-* 知乎 & Markdown：[知乎编辑器，支持文档导入功能啦](//zhuanlan.zhihu.com/p/33722618)
-* 开源的GitHub Android客户端应用：[OpenHub](//thirtydegreesray.github.io/OpenHub/)
+* GIF压缩：[GIF Compressor](https://gifcompressor.com/)
+* 在线制作GIF的工具：[小猪动图](https://www.piggif.com/tools/video)
+* Animated PNG(APNG)相关：[\[转载\]《再回眸，丽影如初》](https://www.uisdc.com/introduction-of-apng-gif)
+* 是“渲染”还是“导出”：[在 After Effects CC 中进行渲染和导出的基础知识](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html)
+* 关于Ae的渲染：[AE 渲染加速的一些方法](https://zhuanlan.zhihu.com/p/33730310)
+* 知乎 & Markdown：[知乎编辑器，支持文档导入功能啦](https://zhuanlan.zhihu.com/p/33722618)
+* 开源的GitHub Android客户端应用：[OpenHub](https://thirtydegreesray.github.io/OpenHub/)
 
 ----
 
@@ -519,51 +519,51 @@ Ps视频图层“速度”与“持续时间”的关系，以及对帧率是否
 
 * 参考
 
-[After Effects CC (CS7) - Adobe Community](//forums.adobe.com/thread/1236678)
+[After Effects CC (CS7) - Adobe Community](https://forums.adobe.com/thread/1236678)
 
-[Making Animated GIFs From After Effects Comps](//www.rocketstock.com/blog/making-animated-gifs-from-after-effects-comps/)
+[Making Animated GIFs From After Effects Comps](https://www.rocketstock.com/blog/making-animated-gifs-from-after-effects-comps/)
 
-[animation - How to export a GIF from After Effects- - Graphic Design Stack Exchange](//graphicdesign.stackexchange.com/questions/91994/how-to-export-a-gif-from-after-effects)
+[animation - How to export a GIF from After Effects- - Graphic Design Stack Exchange](https://graphicdesign.stackexchange.com/questions/91994/how-to-export-a-gif-from-after-effects)
 
-[VIDEO COPILOT - Export Animated GIF in After effects](//www.videocopilot.net/forum/viewtopic.php?t=58672)
+[VIDEO COPILOT - Export Animated GIF in After effects](http://www.videocopilot.net/forum/viewtopic.php?t=58672)
 
-[【展哥】如何制作GIF动图（初级） - 【After Effects教程】干货实用AE实例教程合集【doyoudo出品】(6)\_野生技术协会\_科技\_bilibili\_哔哩哔哩](//www.bilibili.com/video/av4612737/index_20.html#page=6)
+[【展哥】如何制作GIF动图（初级） - 【After Effects教程】干货实用AE实例教程合集【doyoudo出品】(6)\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av4612737/index_20.html#page=6)
 
-[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](//www.bilibili.com/video/av11696223/)
+[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)
 
-[[MG动画教程]财神循环动画制作\_野生技术协会\_科技\_bilibili\_哔哩哔哩](//www.bilibili.com/video/av3732099/)
+[[MG动画教程]财神循环动画制作\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3732099/)
 
-[GIF格式动画到底是怎么做出来的 - 知乎](//zhuanlan.zhihu.com/p/23105036)
-
-<br/>
-
-[Photoshop CC 2015 中的“存储为 Web 所用格式”功能](//helpx.adobe.com/cn/photoshop/kb/save_for_web_Photoshop_CC_2015.html#whats-changing)
-
-[Creative Suite * 优化图像](//help.adobe.com/zh_CN/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)
-
-[GIF 和 PNG-8 优化选项 - Creative Suite * Web 图形优化选项](//help.adobe.com/zh_CN/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)
+[GIF格式动画到底是怎么做出来的 - 知乎](https://zhuanlan.zhihu.com/p/23105036)
 
 <br/>
 
-[How can I export a transparent .gif-：AfterEffects](//www.reddit.com/r/AfterEffects/comments/2x0sg1/how_can_i_export_a_transparent_gif/)
+[Photoshop CC 2015 中的“存储为 Web 所用格式”功能](https://helpx.adobe.com/cn/photoshop/kb/save_for_web_Photoshop_CC_2015.html#whats-changing)
 
-[transparency - Can I create a transparent GIF with After Effects- - Graphic Design Stack Exchange](//graphicdesign.stackexchange.com/questions/94051/can-i-create-a-transparent-gif-with-after-effects/)
+[Creative Suite * 优化图像](https://help.adobe.com/zh_CN/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)
 
-[Ae怎么导出透明背景视频？ - 范鹏的回答 - 知乎](//www.zhihu.com/question/26993675/answer/89595667)
+[GIF 和 PNG-8 优化选项 - Creative Suite * Web 图形优化选项](https://help.adobe.com/zh_CN/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)
 
-[有哪些软件可以将一段视频在尽量保证原视频质量的情况下转成gif动图？ - 知乎](//www.zhihu.com/question/20757401)
+<br/>
+
+[How can I export a transparent .gif-：AfterEffects](https://www.reddit.com/r/AfterEffects/comments/2x0sg1/how_can_i_export_a_transparent_gif/)
+
+[transparency - Can I create a transparent GIF with After Effects- - Graphic Design Stack Exchange](https://graphicdesign.stackexchange.com/questions/94051/can-i-create-a-transparent-gif-with-after-effects/)
+
+[Ae怎么导出透明背景视频？ - 范鹏的回答 - 知乎](https://www.zhihu.com/question/26993675/answer/89595667)
+
+[有哪些软件可以将一段视频在尽量保证原视频质量的情况下转成gif动图？ - 知乎](https://www.zhihu.com/question/20757401)
 
 <br/>
 
 * 感谢
 
-[@徐勇智](//www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 关于“Ps导入序列帧时帧速率设置”的指正；
+[@徐勇智](https://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 关于“Ps导入序列帧时帧速率设置”的指正；
 
-[@吃生葱会流鼻血吗](//www.zhihu.com/people/411f6a8f47dc572f8387c3fb7bdc55b3) 关于“Ps导入序列帧方法”的提示；
+[@吃生葱会流鼻血吗](https://www.zhihu.com/people/411f6a8f47dc572f8387c3fb7bdc55b3) 关于“Ps导入序列帧方法”的提示；
 
-[@陈璇](//www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了“Ae CS4”的截图；
+[@陈璇](https://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了“Ae CS4”的截图；
 
-[@horbyn4zZ](//www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246) 协助测试Aep兼容性。
+[@horbyn4zZ](https://www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246) 协助测试Aep兼容性。
 
 ----
 
