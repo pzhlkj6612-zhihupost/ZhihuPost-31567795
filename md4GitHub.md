@@ -412,6 +412,8 @@ Ps 128/256色 15损耗 较低分辨率
 最方便而且质量还不错：
 ```
 AME/Pr 100Quality 完整分辨率
+
+* 要注意AME/Pr貌似会影响动画的“速度”，进而影响到总时长。
 ```
 ----
 
@@ -480,6 +482,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * Ps中`时间轴`面板的`优化动画`选项有何用？[//helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames](//helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames)
 * [photoshop中帧动画和时间轴的区别](//zhidao.baidu.com/question/571446763.html)
 * Pr/AME一定无法导出带Alpha的GIF了？
+* Pr/AME对于动画“速度”的影响；
 * Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[//www.zhihu.com/question/62864730](//www.zhihu.com/question/62864730)）
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
