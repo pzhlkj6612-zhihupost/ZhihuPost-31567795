@@ -8,7 +8,7 @@
 | 编写 | O |
 | Alpha | O |
 | Beta | O |
-| Gamma | X |
+| Gamma | O |
 | Release | X |
 | 发布到知乎 | X |
 
