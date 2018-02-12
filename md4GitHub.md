@@ -412,17 +412,11 @@ Ps导出配置：[界面名称参考](https://help.adobe.com/zh_CN/creativesuite
 ```
 对比：
 
-1920:1080
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-cde6e4801d72792f98f2605610cee1b1.jpg)
 
-![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-3baee42f61b6562eb56eb4b40e91557d.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-d2666fba0adb20187c17e68b7ecb6781.jpg)
 
-960:540
-
-![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-d5fa349fa88d0d22012e891c57a8fec0.jpg)
-
-480:270
-
-![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-0c942631847206ea2c4b4931ca9950c0.jpg)
+![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-c61f0e99ca8e5ba29839a8d1493b5eb1.jpg)
 
 结论：
 
