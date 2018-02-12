@@ -262,13 +262,13 @@ Ps视频图层
 * 通常，GIF并不需要太高的分辨率，可以在`图像大小`处按需调整（只调整`百分比`可能会比较方便）；
 * `动画`-`循环选项`，按需选择`一次`、`永远`或`其它...`；
 
-其它的保持默认（有更好的建议请提出来）。
+其它的保持默认（有更好的建议请提出来）；
 
-最后单击下边的`存储...`，选一个你能找到的文件夹和文件名保存文件。
+最后，单击底部的`存储...`（不要点`完成`），选一个你能找到的文件夹和文件名保存文件。
 
 如果出现以下警告，点`确定`就好：
 
-（建议你不要将GIF动画文件保存到存在非拉丁字符的路径）
+（不建议你将GIF动画文件保存到存在包含[非拉丁字符](https://www.baidu.com/s?wd=%E9%9D%9E%E6%8B%89%E4%B8%81%E5%AD%97%E7%AC%A6)的路径）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31567795/master/pic_zhimg_com/v2-9e995dbfc6115cde8123d359b0abef0f.jpg)
 
@@ -480,10 +480,10 @@ AME/Pr 100Quality 完整分辨率
 
 * QuickTime格式的支持Alpha通道（透明度信息）的编解码器有这些：
 ```
-DNxHR/DNxHD		// 不推荐使用 - 需要额外的复杂的设置
-GoPro CineForm		// 推荐使用 - 默认 Quality=4 即可
-动画（Animation）	// 没有GoPro CineForm就用这个
-无（None）		// 不推荐使用 - 浪费磁盘空间
+DNxHR/DNxHD	// 不推荐使用 - 需要额外的复杂的设置
+GoPro CineForm	// 推荐使用 - 默认 Quality=4 即可
+动画（Animation）// 没有GoPro CineForm就用这个
+无（None）	// 不推荐使用 - 浪费磁盘空间
 
 // 以下的都是安装QuickTime后新增的，依然建议用GoPro CineForm
 JPEG 2000, PNG, Planar RGB, TGA, TIFF 
