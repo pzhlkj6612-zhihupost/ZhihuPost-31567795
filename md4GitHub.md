@@ -87,7 +87,7 @@ Ps视频图层
 
 此时会弹出`动画GIF选项`窗口，按需调整，点`确定`：
 
-（该窗口除了`循环`以外的设置的作用我还不清楚，保持默认即可）
+*（该窗口除了`循环`以外的设置的作用我还不清楚，保持默认即可）*
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-d2dff1ebf23e3c3d09957360c8a1a041.jpg)
 
