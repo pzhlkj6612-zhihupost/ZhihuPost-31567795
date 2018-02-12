@@ -32,7 +32,7 @@
 
 * [概述](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E6%A6%82%E8%BF%B0)
 * [直接导出GIF（Ae CS5之前）](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BAgifae-cs5%E4%B9%8B%E5%89%8D)
-* [用Adobe家其它软件辅助Ae导出GIF](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E7%94%A8adobe%E5%AE%B6%E5%85%B6%E5%AE%83%E8%BD%AF%E4%BB%B6%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)
+* [用Ps、AME、Pr辅助Ae导出GIF](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E7%94%A8ps%E3%80%81ame%E3%80%81pr%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)
 * [用Ae脚本导出GIF（仅介绍）](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E7%94%A8ae%E8%84%9A%E6%9C%AC%E5%AF%BC%E5%87%BAgif%E4%BB%85%E4%BB%8B%E7%BB%8D)
 * [异常处理](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
 * [注意事项](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
@@ -105,7 +105,7 @@ Ps视频图层
 
 ----
 
-# 用Adobe家其它软件辅助Ae导出GIF
+# 用Ps、AME、Pr辅助Ae导出GIF
 
 自CS5版本开始，Ae不再支持导出GIF动画了，现在`渲染队列`-`输出模块`打开`输出组件设置`，在`主要选项`-`格式`中找不到`动画GIF`：
 
@@ -115,7 +115,7 @@ Ps视频图层
 
 > 要创建动画 GIF 格式的影片，请首先从 After Effects 渲染和导出 QuickTime 影片。然后，将 QuickTime 影片导入 Photoshop，并且将影片导出为动画 GIF。
 
-这表示，我们需要其它软件（例如Ps）的帮助才能获得GIF。其实不光是“QuickTime影片”，通过其它的中介（例如序列帧）最终也能得到GIF，但为了避免内容变得杂乱，我有意去掉了与“序列帧”有关的内容，感兴趣的朋友可以自己做尝试。
+这表示，我们需要其它软件（例如Ps）的帮助才能获得GIF。其实不光是“QuickTime影片”，通过其它的中介（例如序列帧）最终也能得到GIF，但为了避免内容变得杂乱，我有意去掉了“序列帧”相关的内容，感兴趣的朋友可以自己做尝试。
 
 以下是Ps、AME、Pr三款软件配合Ae导出GIF动画文件的方法。
 
@@ -236,7 +236,7 @@ Ps视频图层
 
 **█ 导出**
 
-做好所有调整后，可以准备输出了。菜单栏 -`文件`-`导出`-`存储为Web所用格式（旧版）...`（Ctrl+Shift+Alt+S）：
+做好所有调整后，可以准备输出了。菜单栏 -`文件`-`导出`-`存储为Web所用格式（旧版）...`（Alt+Shift+Ctrl+S）：
 
 ![](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/pic_zhimg_com/v2-1acba783f80c50e1e4e143f4f82a8710.jpg)
 
