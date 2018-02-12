@@ -30,15 +30,15 @@
 
 # 目录
 
-* 概述
-* 直接导出GIF（Ae CS5之前）
-* 用Adobe家其它软件辅助Ae导出GIF
-* 用Ae脚本导出GIF（仅介绍）
-* 异常处理
-* 注意事项
-* 未解决的问题
-* 推荐
-* 结尾
+* [概述](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E6%A6%82%E8%BF%B0)
+* [直接导出GIF（Ae CS5之前）](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BAgifae-cs5%E4%B9%8B%E5%89%8D)
+* [用Adobe家其它软件辅助Ae导出GIF](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E7%94%A8adobe%E5%AE%B6%E5%85%B6%E5%AE%83%E8%BD%AF%E4%BB%B6%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)
+* [用Ae脚本导出GIF（仅介绍）](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E7%94%A8ae%E8%84%9A%E6%9C%AC%E5%AF%BC%E5%87%BAgif%E4%BB%85%E4%BB%8B%E7%BB%8D)
+* [异常处理](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
+* [注意事项](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+* [未解决的问题](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E6%9C%AA%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98)
+* [推荐](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E6%8E%A8%E8%8D%90)
+* [结尾](https://github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md#%E7%BB%93%E5%B0%BE)
 
 ----
 
