@@ -372,43 +372,46 @@ Ps视频图层
 
 源视频信息：
 ```
-*Suffix               : .mov
-Codec ID/Info         : CineForm High-Definition (HD) wavelet codec
-*Frame Count          : 96
-Bit rate              : 98.4 Mb/s
-*Width:Height         : 1920 : 1080 pixels [16:9]
-Frame rate            : 25.000 FPS [Constant]
-Color space           : YUV
-Scan type             : Progressive
+*Suffix		: .mov
+Codec ID/Info	: CineForm High-Definition (HD) wavelet codec
+*Frame Count	: 96
+Bit rate	: 98.4 Mb/s
+*Width:Height	: 1920 : 1080 pixels [16:9]
+Frame rate	: 25.000 FPS [Constant]
+Color space	: YUV
+Scan type	: Progressive
 ```
 AME导出配置：
 ```
-Quality       : 100
-Width:Height  : 1920:1080 / 960:540 / 480:270
-Frame Rate    : 25
-Field Order   : Progressive
-Aspect Ratio  : 1.0
+Quality		: 100
+Width:Height	: 1920:1080 / 960:540 / 480:270
+Frame Rate	: 25
+Field Order	: Progressive
+Aspect Ratio	: 1.0
 ```
-Ps导出配置：[界面名称参考](https://help.adobe.com/zh_CN/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)
+Ps导出配置：
+
+（[界面名称参考1](https://help.adobe.com/zh_CN/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)；[界面名称参考2](https://help.adobe.com/zh_CN/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)）
 ```
 优化
-  减低颜色深度算法  : 可选择
-  颜色              : 256
-  仿色算法          : 扩散
-  仿色              : 100%
-  透明度            : True
-  杂边              : #FFFFFF
-  透明度仿色        : 无透明度仿色
-  数量              : Disable
-  交错              : False
-  Web靠色           : 0%
-  损耗              : 0% / 15%
-  转换为sRGB        : True
-  预览              : 显示器颜色
-  元数据            : 版权和联系信息
+	减低颜色深度算法	: 可选择
+	颜色		: 256
+	仿色算法		: 扩散
+	仿色		: 100%
+	透明度		: True
+	杂边		: #FFFFFF
+	透明度仿色	: 无透明度仿色
+	数量		: Disable
+	交错		: False
+	Web靠色		: 0%
+	损耗		: 0% / 15%
+颜色表
+	转换为sRGB	: True
+	预览		: 显示器颜色
+	元数据		: 版权和联系信息
 图像大小
-  W:H               : 1920:1080 / 960:540 / 480:270
-  品质              : 两次立方
+	W:H		: 1920:1080 / 960:540 / 480:270
+	品质		: 两次立方
 ```
 对比：
 
