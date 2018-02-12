@@ -171,7 +171,7 @@ Ps视频图层
 
 注意橙框中的`限制为每隔 x 帧`，这相当于“丢帧”。如果启用，那最终导入到Ps中的总帧数为：
 
-![](https://www.zhihu.com/equation?tex=%E6%80%BB%E5%B8%A7%E6%95%B0%3D%5Cfrac%7B1%7D%7Bx%7D%5Ctimes%E5%AF%BC%E5%85%A5%E8%8C%83%E5%9B%B4%E5%86%85%E7%B4%A0%E6%9D%90%E5%B8%A7%E6%95%B0)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31567795/master/pic_zhimg_com/v2-fb34a70c32428eac8d22638c7718baf6.jpg)
 
 也就是说，剩下的帧都会被丢弃。这里有一个演示，只保留了1/5的帧（`限制为每隔5帧`），注意对比：
 
@@ -212,11 +212,11 @@ Ps视频图层
 
 这里你需要算出最终每帧应该持续多长时间：
 
-![](https://www.zhihu.com/equation?tex=%E6%AF%8F%E5%B8%A7%E6%97%B6%E9%95%BF%3D%E9%BB%98%E8%AE%A4%E6%AF%8F%E5%B8%A7%E6%97%B6%E9%95%BF%5Ctimes+x)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31567795/master/pic_zhimg_com/v2-258a7deba726e3dadf9d9a13d1dc1488.jpg)
 
 如果你在多次调整后忘记了“默认每帧时长”是多少，就找到你的视频素材，尝试计算：
 
-![](https://www.zhihu.com/equation?tex=%E9%BB%98%E8%AE%A4%E6%AF%8F%E5%B8%A7%E6%97%B6%E9%95%BF%3D%5Cfrac%7B1%7D%7B%E5%B8%A7%E7%8E%87%7D)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31567795/master/pic_zhimg_com/v2-5be4bf744e1a8f797492aa66eaadf24a.jpg)
 
 你还可以做其它的调整，更多内容请参阅：[创建帧动画](https://helpx.adobe.com/cn/photoshop/using/creating-frame-animations.html)
 
