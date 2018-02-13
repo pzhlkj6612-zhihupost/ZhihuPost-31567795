@@ -51,16 +51,16 @@
 ```
 Ae合成
   |
-  |<QuickTime(GoPro CineForm)>
-  ↓
+  <QuickTime(GoPro CineForm)>
+  |
 .mov视频文件
   |
-  |<“打开”>
-  ↓
+  <“打开”>
+  |
 Ps视频图层
   |
-  |<“存储为Web所用格式” 256色 15损耗>
-  ↓
+  <“存储为Web所用格式” 256色 15损耗>
+  |
 .gif动画文件
 ```
 
@@ -144,10 +144,6 @@ Ps视频图层
 通常，GIF并不需要太高的帧率，你可以在导出前进行额外的设置（这不影响原合成）。找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。将`帧速率`区域中的`使用此帧速率`选中，并为其指定一个更低的值（10~25）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31567795/master/pic_zhimg_com/v2-e5d634b270ce4e16e8c66dd401359885.jpg)
-
-通常，GIF也并不需要太高的分辨率，但不建议在导入Ps前做处理，以下是对比：
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31567795/master/pic_zhimg_com/v2-e221297f02e0cf6848789af4398681b4.jpg)
 
 打开Ps，找到菜单栏 -`窗口`-`时间轴`以打开`时间轴`面板：
 
@@ -292,11 +288,13 @@ Ps视频图层
 
 **█ 启动AME/Pr并导入文件**
 
-你可以在Ae里直接启动AME：在Ae中选中你要导出的合成，然后菜单栏 -`文件`-`导出`-`添加到Adobe Media Encoder 队列...`（Ctrl+Alt+M）：
+* 你可以在Ae中选中你要导出的合成，然后菜单栏 -`文件`-`导出`-`添加到Adobe Media Encoder 队列...`（Ctrl+Alt+M），这样能直接启动AME并导入当前Ae项目中的合成：
+
+（但修改当前的Ae项目文件并不会影响AME，因为AME接收到的是当时的项目副本）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31567795/master/pic_zhimg_com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
 
-* 你也可以直接打开AME，找到菜单栏 -`添加源`（Ctrl+大写字母I）；
+* 你也可以自行打开AME，找到菜单栏 -`添加源`（Ctrl+大写字母I）；
 
 * 或者，你打开Pr并新建一个项目，然后菜单栏 -`文件`-`导入`（Ctrl+大写字母I）；
 
@@ -533,7 +531,11 @@ Ps视频图层“速度”与“持续时间”的关系，以及对帧率是否
 
 `将视频导入图层`窗口不选中`制作帧动画`，如何继续制作帧动画；
 
-[Adobe Generator 4 GIF](https://helpx.adobe.com/cn/photoshop/kb/save_for_web_Photoshop_CC_2015.html#whats-changing)
+[Adobe Generator 4 GIF](https://helpx.adobe.com/cn/photoshop/kb/save_for_web_Photoshop_CC_2015.html#whats-changing)；
+
+Ps->GIF，Resize的时机对于最终质量的影响；
+
+“丢帧”动画示意图。
 
 <br/>
 
