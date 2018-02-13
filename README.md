@@ -3,6 +3,12 @@
 
 在这里进行较为频繁的更新，以纠正逻辑、拼写、格式错误。
 
+----
+
+[在GitHub上阅读正文](github.com/pzhlkj6612/ZhihuPaper-31567795/blob/master/md4GitHub.md)
+
+----
+
 | 阶段 | 状态 |
 |-|:-:|
 | 编写 | O |
