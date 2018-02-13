@@ -155,6 +155,8 @@ Ps视频图层
 
 菜单栏 -`文件`-`导入`-`视频帧到图层`，找到并选中刚才导出的视频，单击`打开`：
 
+（不要在这里多选文件，它只会导入`文件名`处的第一个文件）
+
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31567795/master/pic_zhimg_com/v2-b3a354c0b757166b1fe3cc6da9fa6f95.jpg)
 
 此时会弹出`将视频导入图层`窗口：
