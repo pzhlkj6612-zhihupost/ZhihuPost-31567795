@@ -51,7 +51,7 @@
 ```
 Ae合成
   |
-  < QuickTime(GoPro CineForm编码)格式 | 较低帧率 | 较低分辨率 >
+  < QuickTime格式(GoPro CineForm编码 质量4) | 较低帧率 | 较低分辨率 >
   |
 .mov视频文件
   |
@@ -59,7 +59,7 @@ Ae合成
   |
 Adobe Media Encoder
   |
-  < “动画GIF”格式 | 100质量 >
+  < “动画GIF”格式 | 质量100 >
   |
 .gif动画文件                     _______________________
   |
