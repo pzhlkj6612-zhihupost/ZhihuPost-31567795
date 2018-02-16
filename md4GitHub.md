@@ -545,7 +545,7 @@ Ps->GIF，Resize的时机对于最终质量的影响；
 
 “丢帧”的每隔`x`帧的准确定义；
 
-Ps视频图层-`解释素材`。
+Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importing-video-files-image-sequences.html#interpreting_video_footage)。
 
 <br/>
 
