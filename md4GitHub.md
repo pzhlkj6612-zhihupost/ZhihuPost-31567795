@@ -137,11 +137,11 @@ Adobe Media Encoder
 
 **█ 首先**
 
-保存你的Ae项目文件，并将你的合成导出为QuickTime格式的视频（建议选用GoPro CineForm编码）：
+保存你的Ae项目文件，并将你的合成导出为QuickTime格式的视频（建议使用GoPro CineForm编码）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-49bf6c1d1fab4c37f0acf938389d7f60.jpg)
 
-如果你需要制作带Alpha通道的GIF，要在事先做处理。导出Ae合成之前，单击`输出组件`后的链接，打开`输出组件设置`窗口。`主要选项`中，`格式`选择`QuickTime`，`视频输出`区域-`通道`选择`RGB+Alpha`（如果`RGB+Alpha`不可选，就需要切换到正确的编解码器，参考文末“注意事项”）：
+如果你需要制作带Alpha通道的GIF，要在事先做处理。导出Ae合成之前，单击`输出组件`后的链接，打开`输出组件设置`窗口。`主要选项`中，`格式`选择`QuickTime`，`视频输出`区域-`通道`选择`RGB+Alpha`（如果`RGB+Alpha`不可选，就需要切换到正确的编解码器，参考文末“[注意事项](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)”）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-323514efb5034765077ebccbc448b4c7.jpg)
 
@@ -543,7 +543,9 @@ Ps->GIF，Resize的时机对于最终质量的影响；
 
 “丢帧”动画示意图；
 
-“丢帧”的每隔`x`帧的准确定义。
+“丢帧”的每隔`x`帧的准确定义；
+
+Ps视频图层-`解释素材`。
 
 <br/>
 
