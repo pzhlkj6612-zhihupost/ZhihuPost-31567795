@@ -95,7 +95,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-d2dff1ebf23e3c3d09957360c8a1a041.jpg)
 
-确定所有设置后，单击合成的`输出到：`后的链接，指定一个你找得到的路径和文件名，作为GIF文件的输出位置。完成一切操作后，单击`渲染队列`面板右侧的`渲染`，开始导出GIF：
+确定所有设置后，单击合成的`输出到：`后的链接，指定一个你找得到的路径和文件名，作为GIF文件的输出位置。完成这些操作后，单击`渲染队列`面板右侧的`渲染`，开始导出GIF：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-ed216ebc66f9840cd012237bc42a6dea.jpg)
 
@@ -619,6 +619,6 @@ Ps->GIF，Resize的时机对于最终质量的影响；
 
 <br/>
 
-修改于：18:48 2018/02/12
+修改于：18:32 2018/02/16
 
 禁止转载。
