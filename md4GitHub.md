@@ -157,7 +157,7 @@ Adobe Media Encoder
 
 **█ 导入并处理 方法一 “帧动画”**
 
-菜单栏 -`文件`-`导入`-`视频帧到图层`，找到并选中刚才导出的视频，单击`打开`：
+菜单栏 -`文件`-`导入`-`视频帧到图层...`，找到并选中刚才导出的视频，单击`打开`：
 
 （不要在这里多选文件，它只会导入`文件名`处的第一个文件）
 
@@ -508,6 +508,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * Pr/AME对于动画“速度”的影响；
 * Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
 * [Ae的GifGun插件怎么才能导出透明背景的gif？ - 知乎](https://www.zhihu.com/question/55557663)
+* Ps的`文件File`-`导入Import`-`视频帧到图层...Video Frames to Layers`，为何一直没在helpx上看到？？？
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
@@ -545,7 +546,9 @@ Ps->GIF，Resize的时机对于最终质量的影响；
 
 “丢帧”的每隔`x`帧的准确定义；
 
-Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importing-video-files-image-sequences.html#interpreting_video_footage)。
+Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importing-video-files-image-sequences.html#interpreting_video_footage)；
+
+[How to make an animated GIF in Photoshop | Adobe Photoshop CC tutorials](https://helpx.adobe.com/photoshop/how-to/make-animated-gif.html)
 
 <br/>
 
