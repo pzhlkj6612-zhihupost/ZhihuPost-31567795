@@ -149,13 +149,13 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-e5d634b270ce4e16e8c66dd401359885.jpg)
 
-打开Ps，找到菜单栏 -`窗口`-`时间轴`以打开`时间轴`面板：
+打开Ps，先找到菜单栏 -`窗口`-`时间轴`以打开`时间轴`面板：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-a85386389e6ad1c75035ee7d276a5300.jpg)
 
 <br/>
 
-接下来是“导入并处理”，目前有“帧动画”与“视频图层”两条路，具体哪一种更好我还不清楚，请练习后自行选择：
+接下来是“导入并处理”部分。目前有“帧动画”与“视频图层”两条路，具体哪一种更好我还不清楚，请练习后自行选择：
 
 **█ 导入并处理 方法一 “帧动画”**
 
