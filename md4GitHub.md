@@ -564,8 +564,6 @@ Ps->GIF，Resize的时机对于最终质量的影响；
 
 Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importing-video-files-image-sequences.html#interpreting_video_footage)；
 
-[How to make an animated GIF in Photoshop | Adobe Photoshop CC tutorials](https://helpx.adobe.com/photoshop/how-to/make-animated-gif.html)
-
 <br/>
 
 * 参考
@@ -585,6 +583,10 @@ Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importin
 [[MG动画教程]财神循环动画制作\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3732099/)
 
 [GIF格式动画到底是怎么做出来的 - 知乎](https://zhuanlan.zhihu.com/p/23105036)
+
+<br/>
+
+[How to make an animated GIF in Photoshop | Adobe Photoshop CC tutorials](https://helpx.adobe.com/photoshop/how-to/make-animated-gif.html)
 
 <br/>
 
