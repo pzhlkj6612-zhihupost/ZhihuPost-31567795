@@ -153,9 +153,9 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-a85386389e6ad1c75035ee7d276a5300.jpg)
 
-<br/>
-
 接下来是“导入并处理”部分。目前有“帧动画”与“视频图层”两条路，具体哪一种更好我还不清楚，请练习后自行选择：
+
+<br/>
 
 **█ 导入并处理 方法一 “帧动画”**
 
@@ -179,6 +179,8 @@ Adobe Media Encoder
 
 也就是说，剩下的帧都会被丢弃。这里有一个演示，只保留了1/5的帧（`限制为每隔5帧`），注意对比：
 
+（这是25FPS、100F的GIF）
+
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-7924af1603178b72e582a291b75bbe8b.gif)
 
 其实你可能会发现，丢弃4/5的帧也不太影响观感，所以你可以试着增加`x`的值，这样既能有效地加快Ps的处理速度、节省时间，又能降低最终生成的GIF动画文件的大小。
@@ -201,6 +203,14 @@ Adobe Media Encoder
 <br/>
 
 导入素材后，要注意，Ps会将当前帧动画的帧速率设定为导入素材的帧速率，如果之前进行了“丢帧”，那现在的动画就是“加速”过的（因为在按照原来的速度播放间隔较远的帧）。注意对比：
+
+（这是25FPS、250F的GIF）
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-4b092455c704e4b65a273b77d4231df3.gif)
+
+或者用上边那段素材做对比：
+
+（这是25FPS、100F的GIF）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-0bb0c2ac2d7dfb7aa5382263414f6541.gif)
 
