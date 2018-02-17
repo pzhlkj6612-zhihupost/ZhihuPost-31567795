@@ -171,7 +171,7 @@ Adobe Media Encoder
 
 注意红框中的`制作帧动画`，请务必选中它；
 
-注意橙框中的`限制为每隔 x 帧`，这相当于“丢帧”。如果启用，那最终导入到Ps中的总帧数为：
+注意橙框中的`限制为每隔 x 帧`（`x`在2~500的范围内）。这个选项的作用是，是否按一定间隔来抽取视频的帧导入Ps，而丢掉剩下的帧，我这里称它为“丢帧”。如果启用，那最终导入到Ps中的总帧数为：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fb34a70c32428eac8d22638c7718baf6.jpg)
 
