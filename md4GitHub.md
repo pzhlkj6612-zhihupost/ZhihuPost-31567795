@@ -145,7 +145,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-323514efb5034765077ebccbc448b4c7.jpg)
 
-通常，GIF并不需要太高的帧率，你可以在导出前进行额外的设置（这不影响原合成）。找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。将`帧速率`区域中的`使用此帧速率`选中，并为其指定一个更低的值（10~25）：
+通常，GIF并不需要太高的分辨率和帧率，你可以在导出前进行额外的设置（这不影响原合成）。找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。将`合成“xxx”`区域中的`分辨率`改为1/3、1/4等；再将`帧速率`区域中的`使用此帧速率`选中，并为其指定一个更低的值（10~25）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1bc651dd01ddf76aa7070a52e0352506.jpg)
 
