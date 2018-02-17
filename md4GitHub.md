@@ -153,7 +153,9 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-a85386389e6ad1c75035ee7d276a5300.jpg)
 
-接下来是“导入与处理”，目前有两条路，具体哪一种更好我还不清楚，请练习后自行选择：
+<br/>
+
+接下来是“导入并处理”，目前有“帧动画”与“视频图层”两条路，具体哪一种更好我还不清楚，请练习后自行选择：
 
 **█ 导入并处理 方法一 “帧动画”**
 
@@ -171,7 +173,7 @@ Adobe Media Encoder
 
 注意红框中的`制作帧动画`，请务必选中它；
 
-注意橙框中的`限制为每隔 x 帧`（`x`在2~500的范围内）。这个选项的作用是，是否按一定间隔来抽取视频的帧导入Ps，而丢掉剩下的帧，我这里称它为“丢帧”。如果启用，那最终导入到Ps中的总帧数为：
+注意橙框中的`限制为每隔 x 帧`（`x`在2~500的范围内）。这个选项的作用是，是否按一定间隔抽取视频帧来导入Ps，并丢弃剩下的帧，在这里我称它为“丢帧”。如果启用，那最终导入到Ps中的总帧数为：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fb34a70c32428eac8d22638c7718baf6.jpg)
 
@@ -179,9 +181,9 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-7924af1603178b72e582a291b75bbe8b.gif)
 
-其实你可能会发现，丢弃4/5的帧也不怎么影响观感，所以你大可增加`x`的值，这样就能有效地加快Ps的处理速度，并降低最终生成的GIF动画文件的大小。
+其实你可能会发现，丢弃4/5的帧也不太影响观感，所以你可以试着增加`x`的值，这样既能有效地加快Ps的处理速度、节省时间，又能降低最终生成的GIF动画文件的大小。
 
-但是，请你记牢`x`的值，稍后会用到。
+注意，如果你启用了“丢帧”，就一定记牢`x`的值，稍后会用到。
 
 <br/>
 
@@ -194,7 +196,7 @@ Adobe Media Encoder
 1. 最终导入到Ps中的总帧数超过了300；
 2. 最终导入到Ps中的总帧数超过了500。
 
-由于Ps并不是视频编辑软件，在处理动画上效率并不高，所以软件本身做了一些限制。要解决上述问题，你可以对素材进行剪辑（最好在Ae中处理），或者增加素材帧的“丢弃”量（参考前边的“`限制为每隔 x 帧`”内容），以减少最终导入Ps的帧数量。
+由于Ps并不是视频编辑软件，在处理动画上效率并不高，所以软件本身做了一些限制。要解决上述问题，你可以对素材进行剪辑（最好在Ae中处理），或者增加“丢帧”量（参考前边的“`限制为每隔 x 帧`”内容），以减少最终导入Ps的帧的数量。
 
 <br/>
 
@@ -235,6 +237,8 @@ Adobe Media Encoder
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-64aa7d9df1df3e31be4865560ec44394.jpg)
 
 更多内容请参阅：[编辑视频和动画图层](https://helpx.adobe.com/cn/photoshop/using/editing-video-animation-layers-photoshop.html)
+
+<br/>
 
 **█ 导出**
 
@@ -543,8 +547,6 @@ Ps视频图层“速度”与“持续时间”的关系，以及对帧率是否
 Ps->GIF，Resize的时机对于最终质量的影响；
 
 “丢帧”动画示意图；
-
-“丢帧”的每隔`x`帧的准确定义；
 
 Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importing-video-files-image-sequences.html#interpreting_video_footage)；
 
