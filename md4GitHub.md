@@ -508,7 +508,11 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 ```
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-17500d563567c06a58b094c9a991e584.jpg)
 
-* 如果你要使用序列帧取代QuickTime视频文件作为应用之间传递的文件，别用psd序列制作带Alpha的GIF，因为这依然会丢失Alpha通道信息（我不清楚原因）；
+* Ps的`导入`-`视频帧到图层`的那个`限制为每隔 x 帧`，中文翻译并不准确，[英文原文](https://helpx.adobe.com/photoshop/how-to/make-animated-gif.html#optional__import_a_video)是“Limit To Every x Frames”，也就是“每x帧取一帧”，这就很明白了，同时也表明了为何会有大于等于2这个限制：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-77190cbc0ed214de27689dd592cdc2f7.jpg)
+
+* 如果你要使用序列帧取代QuickTime视频文件作为应用之间传递的文件，就别用“psd序列”制作带Alpha的GIF，因为这依然会丢失Alpha通道的信息（我不清楚原因）；
 * 如果你需要将GIF动画文件置于Web服务器、FTP服务器等位置，或者需要将GIF动画文件嵌入各平台应用程序内，请确认你的文件能够被相关程序逻辑正确地处理；
 * 本文中给出的各种方法都指向“从Ae导出GIF”这个目标，忽略了一路上大量其它的详细设置，所以需要你自己去查找、学习。首先你需要Adobe官方的用户指南，以Ae为例，在菜单栏 -“帮助”-“After Effects帮助...”（F1），在打开的网页里单击“用户指南”，开始学习：
 
