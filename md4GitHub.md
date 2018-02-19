@@ -65,7 +65,7 @@ Adobe Media Encoder
   |
   < http://gifcompressor.com/ > ←对于机密文件，不要这样做
   |
-.gif动画文件                     _______________________
+更小的.gif动画文件                _______________________
 ```
 
 <br/>
