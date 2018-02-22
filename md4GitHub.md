@@ -179,9 +179,9 @@ Adobe Media Encoder
 
 也就是说，剩下的帧都会被丢弃。这里有一个关于`x`值的演示：
 
-（“Interval”即为`x`的值；当`限制为每隔 x 帧`不启用时，`x`=1）
+（“Interval”即为`x`的值）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-51f69ea252feea19fdaaf1b3a15a8e6b.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-9bc58b4ffc57083b7f5987b3007baff2.gif)
 
 这里有一个最终效果的演示，只保留了1/5的帧（`限制为每隔5帧`），注意对比：
 
@@ -212,7 +212,7 @@ Adobe Media Encoder
 
 （这是25FPS、250F的GIF）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-4b092455c704e4b65a273b77d4231df3.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1b62cd272a80e41ba1e7cab14d4132e7.gif)
 
 或者用上边那段素材做对比：
 
@@ -293,6 +293,10 @@ Adobe Media Encoder
 （不建议你将GIF动画文件保存到存在包含[非拉丁字符](https://www.baidu.com/s?wd=%E9%9D%9E%E6%8B%89%E4%B8%81%E5%AD%97%E7%AC%A6)的路径）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-9e995dbfc6115cde8123d359b0abef0f.jpg)
+
+**█ 注意**
+
+有时从`存储为Web所用格式`中导出并覆盖已有文件时，会发现旧文件没有被覆盖，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
 
 <br/>
 
@@ -386,7 +390,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-a7c5a130e8eeef81e8885fae739b1a85.jpg)
 
-不过，也有解决这个问题的可能性，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”。
+请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
 
 <br/>
 
@@ -497,6 +501,8 @@ AME/Pr 100Quality 完整分辨率
 ----
 
 # 异常处理
+
+* 如果你在`存储为Web所用格式（旧版）...`导出时选择覆盖现有文件，但导出结束后文件没有发生变化，也没有任何提示，这就表明旧文件可能被占用了。你可以尝试重新启动计算机来解决这个问题；
 
 * 不同版本的Ae、Pr、Ps、AME间存在的兼容性问题会让许多操作无法继续，你可以尝试将软件间传递的文件转换为兼容性更高的类型，例如PNG序列帧，或者GoPro CineForm编码、QuickTime格式的视频，等等。
 
