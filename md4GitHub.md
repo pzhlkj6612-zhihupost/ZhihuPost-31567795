@@ -177,7 +177,13 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fb34a70c32428eac8d22638c7718baf6.jpg)
 
-也就是说，剩下的帧都会被丢弃。这里有一个演示，只保留了1/5的帧（`限制为每隔5帧`），注意对比：
+也就是说，剩下的帧都会被丢弃。这里有一个关于`x`值的演示：
+
+（“Interval”即为`x`的值；当`限制为每隔 x 帧`不启用时，`x`=1）
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-51f69ea252feea19fdaaf1b3a15a8e6b.gif)
+
+这里有一个最终效果的演示，只保留了1/5的帧（`限制为每隔5帧`），注意对比：
 
 （这是25FPS、100F的GIF）
 
@@ -527,6 +533,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
 * [Ae的GifGun插件怎么才能导出透明背景的gif？ - 知乎](https://www.zhihu.com/question/55557663)
 * Ps的`文件File`-`导入Import`-`视频帧到图层...Video Frames to Layers`，为何一直没在helpx上看到？？？
+* `存储为Web所用格式（旧版）...`里的`确定`到底有何用？
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
@@ -559,8 +566,6 @@ Ps视频图层“速度”与“持续时间”的关系，以及对帧率是否
 [Adobe Generator 4 GIF](https://helpx.adobe.com/cn/photoshop/kb/save_for_web_Photoshop_CC_2015.html#whats-changing)；
 
 Ps->GIF，Resize的时机对于最终质量的影响；
-
-“丢帧”动画示意图；
 
 Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importing-video-files-image-sequences.html#interpreting_video_footage)；
 
