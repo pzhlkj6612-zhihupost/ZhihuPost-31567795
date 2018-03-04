@@ -288,7 +288,7 @@ Adobe Media Encoder
 
 `存储为Web所用格式`窗口中的`完成`的作用是“保存当前配置（以后可以一直用）并关闭窗口”，`取消`的作用是“放弃本次配置修改（如果有）并关闭窗口”。保存的配置（在Win10下的PsCC2018）会被写入`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018 Settings\Save for Web Prefs.psp`，`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018\Recently Used Optimizations.irs`也会被修改；
 
-有时从`存储为Web所用格式`中导出并覆盖已有文件时，会发现旧文件没有被覆盖，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
+有时，从`存储为Web所用格式`中导出并覆盖已有文件时，会发现旧文件没有被覆盖，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
 
 <br/>
 
@@ -315,6 +315,8 @@ Adobe Media Encoder
 （在Ae中修改打开的Ae项目并不会影响AME，因为AME接收到的是当时的项目文件副本）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
+
+<br/>
 
 * 你也可以自行打开AME，找到菜单栏 -`添加源`（Ctrl+大写字母I）；
 
