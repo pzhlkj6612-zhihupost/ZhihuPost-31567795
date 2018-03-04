@@ -270,6 +270,8 @@ Adobe Media Encoder
 
 **█ 注意**
 
+`存储为Web所用格式`窗口中的`完成`的作用是“保存当前配置（以后可以一直用）并关闭窗口”，`取消`的作用是“放弃本次配置修改（如果有）并关闭窗口”。保存的配置（在Win10下的PsCC2018）会被写入`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018 Settings\Save for Web Prefs.psp`，`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018\Recently Used Optimizations.irs`也会被修改；
+
 有时从`存储为Web所用格式`中导出并覆盖已有文件时，会发现旧文件没有被覆盖，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
 
 <br/>
@@ -515,7 +517,6 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
 * [Ae的GifGun插件怎么才能导出透明背景的gif？ - 知乎](https://www.zhihu.com/question/55557663)
 * Ps的`文件File`-`导入Import`-`视频帧到图层...Video Frames to Layers`，为何一直没在helpx上看到？？？
-* `存储为Web所用格式（旧版）...`里的`确定`到底有何用？
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
