@@ -548,6 +548,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * [Ae的GifGun插件怎么才能导出透明背景的gif？ - 知乎](https://www.zhihu.com/question/55557663)
 * Ps的`文件File`-`导入Import`-`视频帧到图层...Video Frames to Layers`，为何一直没在helpx上看到？？？
 * ui.cn httpS -> http
+* Aep -> Pr/AME 直接导会生成副本嘛？
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
