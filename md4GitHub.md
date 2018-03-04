@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b77e62f2328e988eb1606cabad155977.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-b77e62f2328e988eb1606cabad155977.jpg)
 
 禁止转载。
 
@@ -12,7 +12,7 @@
 
 本文章也存在于GitHub仓库：
 
-[https://github.com/pzhlkj6612/ZhihuPost-31567795](https://github.com/pzhlkj6612/ZhihuPost-31567795)
+[https://github.com/pzhlkj6612/ZhihuPost-31567795](https://github.com/pzhlkj6612/ZhihuPost-31567795/tree/NoOldAe)
 
 <br/>
 
@@ -31,7 +31,7 @@
 # 目录
 
 * [概述](#%E6%A6%82%E8%BF%B0)
-* [直接导出GIF（仅介绍）](#)
+* [直接导出GIF（仅介绍）](#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BAgif%E4%BB%85%E4%BB%8B%E7%BB%8D)
 * [用Ps、AME、Pr辅助Ae导出GIF](#%E7%94%A8psamepr%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)
 * [用Ae脚本导出GIF（仅介绍）](#%E7%94%A8ae%E8%84%9A%E6%9C%AC%E5%AF%BC%E5%87%BAgif%E4%BB%85%E4%BB%8B%E7%BB%8D)
 * [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
@@ -78,7 +78,7 @@ Adobe Media Encoder
 
 早于Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本Ae，所以这一部分仅给出要点；我使用的是Ae CS4(9.0.1)：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
 
 ----
 
@@ -86,7 +86,7 @@ Adobe Media Encoder
 
 自CS5版本开始，Ae不再支持导出GIF动画了，现在`渲染队列`-`输出模块`打开`输出组件设置`，在`主要选项`-`格式`中找不到`动画GIF`：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-6da37738cd74d11773d91f70734d991c.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-6da37738cd74d11773d91f70734d991c.jpg)
 
 [Adobe官方的用户指南](https://helpx.adobe.com/cn/after-effects/user-guide.html) > [渲染和导出](https://helpx.adobe.com/cn/after-effects/user-guide.html?topic=/cn/zh-Hans/after-effects/morehelp/exporting_publishing_rendering.ug.js) > [渲染和导出基础知识](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html) > [支持的输出格式](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html#supported_output_formats) 中提到：
 
@@ -112,19 +112,19 @@ Adobe Media Encoder
 
 保存你的Ae项目文件，并将你的合成导出为QuickTime格式的视频（建议使用GoPro CineForm编码）：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-49bf6c1d1fab4c37f0acf938389d7f60.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-49bf6c1d1fab4c37f0acf938389d7f60.jpg)
 
 如果你需要制作带Alpha通道的GIF，要在事先做处理。导出Ae合成之前，单击`输出组件`后的链接，打开`输出组件设置`窗口。`主要选项`中，`格式`选择`QuickTime`，`视频输出`区域-`通道`选择`RGB+Alpha`（如果`RGB+Alpha`不可选，就需要切换到正确的编解码器，参考文末“[注意事项](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)”）：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-323514efb5034765077ebccbc448b4c7.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-323514efb5034765077ebccbc448b4c7.jpg)
 
 通常，GIF并不需要太高的分辨率和帧率，你可以在导出前进行额外的设置（这不影响原合成）。找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。将`合成“xxx”`区域中的`分辨率`改为1/3、1/4等；再将`帧速率`区域中的`使用此帧速率`选中，并为其指定一个更低的值（10~25）：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1bc651dd01ddf76aa7070a52e0352506.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-1bc651dd01ddf76aa7070a52e0352506.jpg)
 
 打开Ps，先找到菜单栏 -`窗口`-`时间轴`以打开`时间轴`面板：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-a85386389e6ad1c75035ee7d276a5300.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-a85386389e6ad1c75035ee7d276a5300.jpg)
 
 接下来是“导入并处理”部分。目前有“帧动画”与“视频图层”两条路，具体哪一种更好我还不清楚，请练习后自行选择：
 
@@ -136,11 +136,11 @@ Adobe Media Encoder
 
 （不要在这里多选文件，它只会导入`文件名`处的第一个文件）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b3a354c0b757166b1fe3cc6da9fa6f95.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-b3a354c0b757166b1fe3cc6da9fa6f95.jpg)
 
 此时会弹出`将视频导入图层`窗口：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-45177e38db6a962e4ce2e5b0bac3b372.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-45177e38db6a962e4ce2e5b0bac3b372.jpg)
 
 你可以在右侧滑块处调整欲导入视频素材的范围；
 
@@ -148,19 +148,19 @@ Adobe Media Encoder
 
 注意橙框中的`限制为每隔 x 帧`（`x`在2~500的范围内）。这个选项的作用是，是否按一定间隔抽取视频帧来导入Ps，并丢弃剩下的帧，在这里我称它为“丢帧”。如果启用，那最终导入到Ps中的总帧数为：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fb34a70c32428eac8d22638c7718baf6.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-fb34a70c32428eac8d22638c7718baf6.jpg)
 
 也就是说，剩下的帧都会被丢弃。这里有一个关于`x`值的演示：
 
 （“Interval”即为`x`的值）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-9bc58b4ffc57083b7f5987b3007baff2.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-9bc58b4ffc57083b7f5987b3007baff2.gif)
 
 这里有一个最终效果的演示，只保留了1/5的帧（`限制为每隔5帧`），注意对比：
 
 （这是25FPS、100F的GIF）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-7924af1603178b72e582a291b75bbe8b.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-7924af1603178b72e582a291b75bbe8b.gif)
 
 其实你可能会发现，丢弃4/5的帧也不太影响观感，所以你可以试着增加`x`的值，这样既能有效地加快Ps的处理速度、节省时间，又能降低最终生成的GIF动画文件的大小。
 
@@ -170,7 +170,7 @@ Adobe Media Encoder
 
 完成设置后单击`确定`，此时可能会出现警告：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-bc937f67938eb4547053d6a90b98e457.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-bc937f67938eb4547053d6a90b98e457.jpg)
 
 意思是：
 
@@ -185,31 +185,31 @@ Adobe Media Encoder
 
 （这是25FPS、250F的GIF）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1b62cd272a80e41ba1e7cab14d4132e7.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-1b62cd272a80e41ba1e7cab14d4132e7.gif)
 
 或者用上边那段素材做对比：
 
 （这是25FPS、100F的GIF）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-0bb0c2ac2d7dfb7aa5382263414f6541.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-0bb0c2ac2d7dfb7aa5382263414f6541.gif)
 
 为了恢复原速，需要进行如下操作：
 
 单击`时间轴`面板右上角按钮调出菜单 -`选择全部帧`：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-da7555d659d39b5acc92fcc4c5bcfed9.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-da7555d659d39b5acc92fcc4c5bcfed9.jpg)
 
 然后在任意一帧上单击那个持续时间（默认每帧时长） -`其它...`，打开`设置帧延迟`窗口：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-3730b040a5fc44c68f6a9e5d64d3e113.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-3730b040a5fc44c68f6a9e5d64d3e113.jpg)
 
 这里你需要算出最终每帧应该持续多长时间：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-258a7deba726e3dadf9d9a13d1dc1488.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-258a7deba726e3dadf9d9a13d1dc1488.jpg)
 
 如果你在多次调整后忘记了“默认每帧时长”是多少，就找到你的视频素材，尝试计算：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-5be4bf744e1a8f797492aa66eaadf24a.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-5be4bf744e1a8f797492aa66eaadf24a.jpg)
 
 你还可以做其它的调整，更多内容请参阅：[创建帧动画](https://helpx.adobe.com/cn/photoshop/using/creating-frame-animations.html)
 
@@ -217,13 +217,13 @@ Adobe Media Encoder
 
 菜单栏 -`文件`-`打开`（Ctrl+字母O），找到并选中刚才导出的视频，单击`打开`：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-15d8eaef2935db58f1a4e4467548b5d1.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-15d8eaef2935db58f1a4e4467548b5d1.jpg)
 
 你可以对这段素材进行更多的调整，右击`时间轴`面板-`视频组`中的图层，可以设置`速度`和`持续时间`：
 
 （`速度`与`持续时间`是两码事，但在调整时可能会互相影响，不清楚会不会影响到帧率等等，要谨慎）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-64aa7d9df1df3e31be4865560ec44394.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-64aa7d9df1df3e31be4865560ec44394.jpg)
 
 更多内容请参阅：[编辑视频和动画图层](https://helpx.adobe.com/cn/photoshop/using/editing-video-animation-layers-photoshop.html)
 
@@ -233,26 +233,26 @@ Adobe Media Encoder
 
 做好所有调整后，可以准备输出了。菜单栏 -`文件`-`导出`-`存储为Web所用格式（旧版）...`（Alt+Shift+Ctrl+S）：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1acba783f80c50e1e4e143f4f82a8710.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-1acba783f80c50e1e4e143f4f82a8710.jpg)
 
 （这个界面可能会很卡，所以操作不要太快，等等进度条）
 
 `存储为Web所用格式`窗口中有一些比较关键的设置：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1e34e68f5ce6e341b240e856da6d8a12.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-1e34e68f5ce6e341b240e856da6d8a12.jpg)
 
 * `颜色`一般选择128或256，对比：
 
 （在0损耗与15损耗下）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-4d2699a7ef51eccd9ef931e4ba6d94b5.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-4d2699a7ef51eccd9ef931e4ba6d94b5.jpg)
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-f2ba803575eda32e8ee1faca89de778b.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-f2ba803575eda32e8ee1faca89de778b.jpg)
 
 * 如果要输出有Alpha通道的GIF，记得勾选`透明度`；
 * 为了导出体积较小但质量还行的GIF，可以适当调整`损耗`，在10~20之间都可以的，实验：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-80fd6fa615c17a1b0ef9890c2838391a.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-80fd6fa615c17a1b0ef9890c2838391a.jpg)
 
 * 通常，GIF并不需要太高的分辨率，可以在`图像大小`处按需调整（只调整`百分比`可能会比较方便）；
 * `动画`-`循环选项`，按需选择`一次`、`永远`或`其它...`；
@@ -265,7 +265,7 @@ Adobe Media Encoder
 
 （不建议你将GIF动画文件保存到存在包含[非拉丁字符](https://www.baidu.com/s?wd=%E9%9D%9E%E6%8B%89%E4%B8%81%E5%AD%97%E7%AC%A6)的路径）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-9e995dbfc6115cde8123d359b0abef0f.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-9e995dbfc6115cde8123d359b0abef0f.jpg)
 
 **█ 注意**
 
@@ -295,7 +295,7 @@ Adobe Media Encoder
 
 （但修改当前的Ae项目文件并不会影响AME，因为AME接收到的是当时的项目副本）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
 
 * 你也可以自行打开AME，找到菜单栏 -`添加源`（Ctrl+大写字母I）；
 
@@ -305,11 +305,11 @@ Adobe Media Encoder
 
 （图是Pr的，AME类似，下同）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-ea8789bcfbcfc5ae4c88bb599c827e15.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-ea8789bcfbcfc5ae4c88bb599c827e15.jpg)
 
 如果你导入了Ae项目文件，就要在弹出的`导入After Effects合成`窗口中找到你需要的合成，选中它，单击`确定`：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b30c19019fe6a8018cd4b66ed5cd7e33.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-b30c19019fe6a8018cd4b66ed5cd7e33.jpg)
 
 **█ （Pr跳过）在AME中准备进行导出设置**
 
@@ -317,7 +317,7 @@ Adobe Media Encoder
 
 此时我的这个“输出”的设置是导出H.264编码的mp4文件，要进行调整——右击这个输出-`导出设置...`：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-2d493528940b13398368a54acc357e8f.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-2d493528940b13398368a54acc357e8f.jpg)
 
 **█ （AME跳过）在Pr中处理素材并准备进行导出设置**
 
@@ -327,7 +327,7 @@ Adobe Media Encoder
 
 在“项目”面板中选中你要导出的素材或序列（仔细分辨哪一项是需要被导出的），菜单栏 -`导出`-`媒体`（Ctrl+M）：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-2077aa2a91c141f002c74ad4d1462a2b.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-2077aa2a91c141f002c74ad4d1462a2b.jpg)
 
 **█ 进行导出设置**
 
@@ -335,15 +335,15 @@ Adobe Media Encoder
 
 （图是AME的，Pr类似，下同）
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-5abcfb9712ac91173d4e025f4a899cd0.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-5abcfb9712ac91173d4e025f4a899cd0.jpg)
 
 单击`输出名称`后的链接，指定一个你找得到的路径和文件名，作为GIF文件的输出位置：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-ed46805de0091f6a925d2069500c70a2.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-ed46805de0091f6a925d2069500c70a2.jpg)
 
 通常，GIF并不需要太高的分辨率和帧率，你可以在导出前进行设置（这不影响素材或者Ae中的原合成）。将`基本视频设置`区域中`宽度`、`高度`后的勾去掉，并将他俩的值改小（参考左侧的预览框，按需、按比例调整）；再将`帧速率`后的勾去掉，并为其指定一个更低的值（10~15）：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-8bf2a32022b03d568fdf6f5a08553a82.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-8bf2a32022b03d568fdf6f5a08553a82.jpg)
 
 **█ （Pr跳过）从AME中导出**
 
@@ -351,7 +351,7 @@ Adobe Media Encoder
 
 确保刚才你调整的这个输出的状态是`就绪`的，接着点绿色的`►（启动队列）`按钮，开始导出GIF：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-558a9d86f3687a998ae03bd839013f38.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-558a9d86f3687a998ae03bd839013f38.jpg)
 
 **█ （AME跳过）从Pr中导出**
 
@@ -361,7 +361,7 @@ Adobe Media Encoder
 
 在“启动AME/Pr并导入文件”这一步导入Ae项目文件时，如果`导入After Effects合成`窗口中出现`无法打开项目`的提示，则说明Ae项目文件的版本高于AME/Pr的版本，无法完成导入：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-a7c5a130e8eeef81e8885fae739b1a85.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-a7c5a130e8eeef81e8885fae739b1a85.jpg)
 
 请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
 
@@ -416,11 +416,11 @@ Ps导出配置：
 ```
 对比：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-114e93a3bd4c66c720ce94ca07614244.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-114e93a3bd4c66c720ce94ca07614244.jpg)
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-0e69b787a4397dcd703acd5bde09c9ca.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-0e69b787a4397dcd703acd5bde09c9ca.jpg)
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-0c7dda9e7a296c4799ae58283c3cfd9e.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-0c7dda9e7a296c4799ae58283c3cfd9e.jpg)
 
 结论：
 
@@ -441,7 +441,7 @@ AME/Pr 100Quality 完整分辨率
 
 * GifGun
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-c910da30605361ebfccd27f695266eee.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-c910da30605361ebfccd27f695266eee.jpg)
 
 官方介绍页：[https://aescripts.com/gifgun/](https://aescripts.com/gifgun/)
 
@@ -453,7 +453,7 @@ AME/Pr 100Quality 完整分辨率
 
 * Gif Magick
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-a40036d08e1fbbda425288ee498a9b30.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-a40036d08e1fbbda425288ee498a9b30.jpg)
 
 官方介绍页：[https://videohive.net/item/gif-magick-after-effects-script/14032323](https://videohive.net/item/gif-magick-after-effects-script/14032323)
 
@@ -491,17 +491,17 @@ GoPro CineForm	// 推荐使用 - 默认 Quality=4 即可
 // 以下的都是安装QuickTime后新增的，依然建议用GoPro CineForm
 JPEG 2000, PNG, Planar RGB, TGA, TIFF 
 ```
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-17500d563567c06a58b094c9a991e584.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-17500d563567c06a58b094c9a991e584.jpg)
 
 * Ps的`导入`-`视频帧到图层`的那个`限制为每隔 x 帧`，中文翻译并不准确，[英文原文](https://helpx.adobe.com/photoshop/how-to/make-animated-gif.html#optional__import_a_video)是“Limit To Every x Frames”，也就是“每x帧取一帧”，这就很明白了，同时也表明了为何会有大于等于2这个限制：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-77190cbc0ed214de27689dd592cdc2f7.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-77190cbc0ed214de27689dd592cdc2f7.jpg)
 
 * 如果你要使用序列帧取代QuickTime视频文件作为应用之间传递的文件，就别用“psd序列”制作带Alpha的GIF，因为这依然会丢失Alpha通道的信息（我不清楚原因）；
 * 如果你需要将GIF动画文件置于Web服务器、FTP服务器等位置，或者需要将GIF动画文件嵌入各平台应用程序内，请确认你的文件能够被相关程序逻辑正确地处理；
 * 本文中给出的各种方法都指向“从Ae导出GIF”这个目标，忽略了一路上大量其它的详细设置，所以需要你自己去查找、学习。首先你需要Adobe官方的用户指南，以Ae为例，在菜单栏 -“帮助”-“After Effects帮助...”（F1），在打开的网页里单击“用户指南”，开始学习：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-54025408ef9bdc3b480ed23ebdbcdad9.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-afdd380aef793fb79156d38c36a8f68e.jpg)
 
 # 未解决的问题
 
@@ -514,7 +514,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * Ps的`文件File`-`导入Import`-`视频帧到图层...Video Frames to Layers`，为何一直没在helpx上看到？？？
 * `存储为Web所用格式（旧版）...`里的`确定`到底有何用？
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
 ----
 
