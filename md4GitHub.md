@@ -31,7 +31,7 @@
 # 目录
 
 * [概述](#%E6%A6%82%E8%BF%B0)
-* [直接导出GIF（Ae CS5之前）](#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BAgifae-cs5%E4%B9%8B%E5%89%8D)
+* [直接导出GIF（仅介绍）](#)
 * [用Ps、AME、Pr辅助Ae导出GIF](#%E7%94%A8psamepr%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)
 * [用Ae脚本导出GIF（仅介绍）](#%E7%94%A8ae%E8%84%9A%E6%9C%AC%E5%AF%BC%E5%87%BAgif%E4%BB%85%E4%BB%8B%E7%BB%8D)
 * [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
@@ -74,38 +74,11 @@ Adobe Media Encoder
 
 ----
 
-# 直接导出GIF（Ae CS5之前）
+# 直接导出GIF（仅介绍）
 
-早于Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)）；
-在这里我用Ae CS4(9.0.1)。
-
-**█ 操作**
-
-首先准备好你已制作完成的合成，然后菜单栏 -`图像合成`-`添加到渲染队列`（Ctrl+Shift+/）：
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-43a1fa4812a7f682c5ff8bbd5ca63190.jpg)
-
-找到刚才添加的合成，单击`输出组件`后的链接，打开`输出组件设置`窗口。在`基于“无损”`区域-`格式`选择`动画GIF`：
+早于Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本Ae，所以这一部分仅给出要点；我使用的是Ae CS4(9.0.1)：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
-
-此时会弹出`动画GIF选项`窗口，按需调整，点`确定`：
-
-*（该窗口除了`循环`以外的设置的作用我还不清楚，保持默认即可）*
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-d2dff1ebf23e3c3d09957360c8a1a041.jpg)
-
-确定所有设置后，单击合成的`输出到：`后的链接，指定一个你找得到的路径和文件名，作为GIF文件的输出位置。完成这些操作后，单击`渲染队列`面板右侧的`渲染`，开始导出GIF：
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-ed216ebc66f9840cd012237bc42a6dea.jpg)
-
-**█ 注意**
-
-通常，GIF并不需要太高的分辨率和帧率，你可以在导出前进行额外的设置（这不影响原合成）：
-
-找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。`合成组名称`区域中的`分辨率`改为1/3、1/4等；再将`帧速率`区域中的`使用这个帧速率`选中，并为其指定一个更低的值（10~25）：
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-8949ef58e69ffdb41f8e88a8c4077db0.jpg)
 
 ----
 
