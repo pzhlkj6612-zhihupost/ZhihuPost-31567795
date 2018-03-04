@@ -95,7 +95,7 @@ Adobe Media Encoder
 
 这表示，我们需要其它软件（例如Ps）的帮助才能获得GIF。其实不光是“QuickTime影片”，通过其它的媒介（例如序列帧）最终也能得到GIF，但为了避免内容变得杂乱，我有意去掉了“序列帧”相关的内容，感兴趣的朋友可以自己做尝试。
 
-以下是Ps、AME、Pr三款软件配合Ae导出GIF动画文件的方法。
+以下是Ps、AME、Pr三款软件配合Ae导出GIF动画文件的方法。要注意，这些方法不只用于辅助Ae，还能直接处理一般的视频文件；
 
 <br/>
 
@@ -238,9 +238,13 @@ Adobe Media Encoder
 
 （这个界面可能会很卡，所以操作不要太快，等等进度条）
 
+<br/>
+
 `存储为Web所用格式`窗口中有一些比较关键的设置：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-1e34e68f5ce6e341b240e856da6d8a12.jpg)
+
+<br/>
 
 * `颜色`一般选择128或256，对比：
 
@@ -250,15 +254,27 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-f2ba803575eda32e8ee1faca89de778b.jpg)
 
+<br/>
+
 * 如果要输出有Alpha通道的GIF，记得勾选`透明度`；
+
+<br/>
+
 * 为了导出体积较小但质量还行的GIF，可以适当调整`损耗`，在10~20之间都可以的，实验：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-80fd6fa615c17a1b0ef9890c2838391a.jpg)
 
+<br/>
+
 * 通常，GIF并不需要太高的分辨率，可以在`图像大小`处按需调整（只调整`百分比`可能会比较方便）；
+
+<br/>
+
 * `动画`-`循环选项`，按需选择`一次`、`永远`或`其它...`；
 
 其它的保持默认（有更好的建议请提出来）；
+
+<br/>
 
 最后，单击底部的`存储...`（不要点`完成`），选一个你能找到的文件夹和文件名保存文件。
 
@@ -296,7 +312,7 @@ Adobe Media Encoder
 
 * 你可以在Ae中选中你要导出的合成，然后菜单栏 -`文件`-`导出`-`添加到Adobe Media Encoder 队列...`（Ctrl+Alt+M），这样能直接启动AME并导入当前Ae项目中的合成：
 
-（但修改当前的Ae项目文件并不会影响AME，因为AME接收到的是当时的项目副本）
+（在Ae中修改打开的Ae项目并不会影响AME，因为AME接收到的是当时的项目文件副本）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
 
