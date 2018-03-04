@@ -76,7 +76,9 @@ Adobe Media Encoder
 
 # 直接导出GIF（仅介绍）
 
-早于Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本Ae，所以这一部分仅给出要点；我使用的是Ae CS4(9.0.1)：
+早于Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本Ae，所以这一部分仅给出要点。
+
+我使用的是Ae CS4(9.0.1)：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
 
@@ -92,7 +94,7 @@ Adobe Media Encoder
 
 > 要创建动画 GIF 格式的影片，请首先从 After Effects 渲染和导出 QuickTime 影片。然后，将 QuickTime 影片导入 Photoshop，并且将影片导出为动画 GIF。
 
-这表示，我们需要其它软件（例如Ps）的帮助才能获得GIF。其实不光是“QuickTime影片”，通过其它的中介（例如序列帧）最终也能得到GIF，但为了避免内容变得杂乱，我有意去掉了“序列帧”相关的内容，感兴趣的朋友可以自己做尝试。
+这表示，我们需要其它软件（例如Ps）的帮助才能获得GIF。其实不光是“QuickTime影片”，通过其它的媒介（例如序列帧）最终也能得到GIF，但为了避免内容变得杂乱，我有意去掉了“序列帧”相关的内容，感兴趣的朋友可以自己做尝试。
 
 以下是Ps、AME、Pr三款软件配合Ae导出GIF动画文件的方法。
 
@@ -477,7 +479,7 @@ AME/Pr 100Quality 完整分辨率
 
 * 如果你在`存储为Web所用格式（旧版）...`导出时选择覆盖现有文件，但导出结束后文件没有发生变化，也没有任何提示，这就表明旧文件可能被占用了。你可以尝试重新启动计算机来解决这个问题；
 
-* 不同版本的Ae、Pr、Ps、AME间存在的兼容性问题会让许多操作无法继续，你可以尝试将软件间传递的文件转换为兼容性更高的类型，例如PNG序列帧，或者GoPro CineForm编码、QuickTime格式的视频，等等。
+* 在不同版本的Ae、Pr、Ps、AME间进行一些操作（例如互相调用项目文件等）可能会因兼容性问题而失败，你可以尝试使用其它的媒介（例如PNG序列帧、QuickTime格式的视频等）来手动完成操作。
 
 # 注意事项
 
