@@ -468,9 +468,17 @@ AME/Pr 100Quality 完整分辨率
 
 官方介绍页：[https://aescripts.com/gifgun/](https://aescripts.com/gifgun/)
 
-相关教程：[https://www.ui.cn/detail/158270.html](https://www.ui.cn/detail/158270.html)
+相关教程：
 
-可能会出现的问题（暂无解决方法，可能是不支持Win7？）：[https://zhidao.baidu.com/question/1370828323868744179.html](https://zhidao.baidu.com/question/1370828323868744179.html)
+[AE脚本插件《gifGun》的安装使用教程以及错误提示的解决-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/158270.html)
+
+[AE CC2017直接导GIF插件—GifGun_1.5.1-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/271758.html)
+
+[Mac版本AE CC 2018脚本插件GIF GUN分享-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/297944.html)
+
+[用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/159691.html)
+
+可能会出现的问题（暂无解决方法，可能是不支持某些Win7或者低于CS5的Ae？）：[gifgun插件安装不了，每次安装都会出现这个对话，求解。。。\_百度知道](https://zhidao.baidu.com/question/1370828323868744179.html)
 
 <br/>
 
@@ -480,7 +488,11 @@ AME/Pr 100Quality 完整分辨率
 
 官方介绍页：[https://videohive.net/item/gif-magick-after-effects-script/14032323](https://videohive.net/item/gif-magick-after-effects-script/14032323)
 
-相关教程：[https://www.ui.cn/detail/159691.html](https://www.ui.cn/detail/159691.html)
+相关教程：
+
+[教你轻松AE导出GIF 内含安装包-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/188372.html)
+
+[用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/159691.html)
 
 <br/>
 
@@ -535,6 +547,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
 * [Ae的GifGun插件怎么才能导出透明背景的gif？ - 知乎](https://www.zhihu.com/question/55557663)
 * Ps的`文件File`-`导入Import`-`视频帧到图层...Video Frames to Layers`，为何一直没在helpx上看到？？？
+* ui.cn httpS -> http
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
