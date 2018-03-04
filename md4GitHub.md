@@ -69,7 +69,7 @@ Adobe Media Encoder
 
 <br/>
 
-文中用到的视频素材来自：《[【大花豹】极乐净土](https://www.bilibili.com/video/av10397269/)》《[50帧又何妨（25FPS已重传）](https://www.bilibili.com/video/av9198307/)》
+文中用到的视频素材来自：《[【大花豹】极乐净土](https://www.bilibili.com/video/av10397269/)》《[50帧又何妨（25FPS已重传）\(2\)](https://www.bilibili.com/video/av9198307/#page=2)》
 
 ----
 
