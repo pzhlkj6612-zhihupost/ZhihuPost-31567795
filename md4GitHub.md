@@ -12,15 +12,14 @@
 
 本文章也存在于GitHub仓库：
 
-[https://github.com/pzhlkj6612/ZhihuPost-31567795](https://github.com/pzhlkj6612/ZhihuPost-31567795)
+[https://github.com/pzhlkj6612/ZhihuPost-31567795](https://github.com/pzhlkj6612/ZhihuPost-31567795/tree/NoOldAe)
 
 <br/>
 
 注意：
 
 * 本文可能不会持续更新；
-* 我仅在`Windows 7/8.1/10`下对本文内容做了简要测试；
-* 我仅在`Adobe CS4/CC2017/CC2018`下对本文内容做了简要测试；
+* 我仅在`Windows 7/8.1/10`下的`Adobe CS4/CC2017/CC2018`对本文内容做了简要测试；
 * 所有方法均由我从各个地方习得并测试，仅供参考，并不一定是最佳选择；
 * 本文并不适合在小屏幕终端上阅读；
 * 以下内容有难度，请你务必耐心；
@@ -31,7 +30,7 @@
 # 目录
 
 * [概述](#%E6%A6%82%E8%BF%B0)
-* [直接导出GIF（Ae CS5之前）](#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BAgifae-cs5%E4%B9%8B%E5%89%8D)
+* [直接导出GIF（仅介绍）](#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BAgif%E4%BB%85%E4%BB%8B%E7%BB%8D)
 * [用Ps、AME、Pr辅助Ae导出GIF](#%E7%94%A8psamepr%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)
 * [用Ae脚本导出GIF（仅介绍）](#%E7%94%A8ae%E8%84%9A%E6%9C%AC%E5%AF%BC%E5%87%BAgif%E4%BB%85%E4%BB%8B%E7%BB%8D)
 * [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
@@ -70,42 +69,17 @@ Adobe Media Encoder
 
 <br/>
 
-文中用到的视频素材来自：《[【大花豹】极乐净土](https://www.bilibili.com/video/av10397269/)》《[50帧又何妨（25FPS已重传）](https://www.bilibili.com/video/av9198307/)》
+文中用到的视频素材来自：《[【大花豹】极乐净土](https://www.bilibili.com/video/av10397269/)》《[50帧又何妨（25FPS已重传）\(2\)](https://www.bilibili.com/video/av9198307/#page=2)》
 
 ----
 
-# 直接导出GIF（Ae CS5之前）
+# 直接导出GIF（仅介绍）
 
-早于Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)）；
-在这里我用Ae CS4(9.0.1)。
+早于Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History))版本的Ae支持导出GIF动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本Ae，所以这一部分仅给出要点。
 
-**█ 操作**
-
-首先准备好你已制作完成的合成，然后菜单栏 -`图像合成`-`添加到渲染队列`（Ctrl+Shift+/）：
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-43a1fa4812a7f682c5ff8bbd5ca63190.jpg)
-
-找到刚才添加的合成，单击`输出组件`后的链接，打开`输出组件设置`窗口。在`基于“无损”`区域-`格式`选择`动画GIF`：
+我使用的是Ae CS4(9.0.1)：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
-
-此时会弹出`动画GIF选项`窗口，按需调整，点`确定`：
-
-*（该窗口除了`循环`以外的设置的作用我还不清楚，保持默认即可）*
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-d2dff1ebf23e3c3d09957360c8a1a041.jpg)
-
-确定所有设置后，单击合成的`输出到：`后的链接，指定一个你找得到的路径和文件名，作为GIF文件的输出位置。完成这些操作后，单击`渲染队列`面板右侧的`渲染`，开始导出GIF：
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-ed216ebc66f9840cd012237bc42a6dea.jpg)
-
-**█ 注意**
-
-通常，GIF并不需要太高的分辨率和帧率，你可以在导出前进行额外的设置（这不影响原合成）：
-
-找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。`合成组名称`区域中的`分辨率`改为1/3、1/4等；再将`帧速率`区域中的`使用这个帧速率`选中，并为其指定一个更低的值（10~25）：
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-8949ef58e69ffdb41f8e88a8c4077db0.jpg)
 
 ----
 
@@ -119,9 +93,9 @@ Adobe Media Encoder
 
 > 要创建动画 GIF 格式的影片，请首先从 After Effects 渲染和导出 QuickTime 影片。然后，将 QuickTime 影片导入 Photoshop，并且将影片导出为动画 GIF。
 
-这表示，我们需要其它软件（例如Ps）的帮助才能获得GIF。其实不光是“QuickTime影片”，通过其它的中介（例如序列帧）最终也能得到GIF，但为了避免内容变得杂乱，我有意去掉了“序列帧”相关的内容，感兴趣的朋友可以自己做尝试。
+这表示，我们需要其它软件（例如Ps）的帮助才能获得GIF。其实不光是“QuickTime影片”，通过其它的媒介（例如序列帧）最终也能得到GIF，但为了避免内容变得杂乱，我有意去掉了“序列帧”相关的内容，感兴趣的朋友可以自己做尝试。
 
-以下是Ps、AME、Pr三款软件配合Ae导出GIF动画文件的方法。
+以下是Ps、AME、Pr三款软件配合Ae导出GIF动画文件的方法。要注意，这些方法不只用于辅助Ae，还能直接处理一般的视频文件；
 
 <br/>
 
@@ -264,9 +238,13 @@ Adobe Media Encoder
 
 （这个界面可能会很卡，所以操作不要太快，等等进度条）
 
+<br/>
+
 `存储为Web所用格式`窗口中有一些比较关键的设置：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1e34e68f5ce6e341b240e856da6d8a12.jpg)
+
+<br/>
 
 * `颜色`一般选择128或256，对比：
 
@@ -276,15 +254,27 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-f2ba803575eda32e8ee1faca89de778b.jpg)
 
+<br/>
+
 * 如果要输出有Alpha通道的GIF，记得勾选`透明度`；
+
+<br/>
+
 * 为了导出体积较小但质量还行的GIF，可以适当调整`损耗`，在10~20之间都可以的，实验：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-80fd6fa615c17a1b0ef9890c2838391a.jpg)
 
+<br/>
+
 * 通常，GIF并不需要太高的分辨率，可以在`图像大小`处按需调整（只调整`百分比`可能会比较方便）；
+
+<br/>
+
 * `动画`-`循环选项`，按需选择`一次`、`永远`或`其它...`；
 
 其它的保持默认（有更好的建议请提出来）；
+
+<br/>
 
 最后，单击底部的`存储...`（不要点`完成`），选一个你能找到的文件夹和文件名保存文件。
 
@@ -296,7 +286,13 @@ Adobe Media Encoder
 
 **█ 注意**
 
-有时从`存储为Web所用格式`中导出并覆盖已有文件时，会发现旧文件没有被覆盖，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
+`存储为Web所用格式`窗口中三个按钮的作用：
+
+* `存储...`是“输出文件并保存当前配置（以后可以一直用）再关闭窗口”；
+* `完成`是“保存当前配置（同上）并关闭窗口”；
+* `取消`是“放弃本次配置修改（如果有）并关闭窗口”。保存的配置（在Win10下的PsCC2018）会被写入`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018 Settings\Save for Web Prefs.psp`，`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018\Recently Used Optimizations.irs`也会被修改。
+
+有时，从`存储为Web所用格式`中导出并覆盖已有文件时，会发现旧文件并没有被覆盖，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
 
 <br/>
 
@@ -320,9 +316,11 @@ Adobe Media Encoder
 
 * 你可以在Ae中选中你要导出的合成，然后菜单栏 -`文件`-`导出`-`添加到Adobe Media Encoder 队列...`（Ctrl+Alt+M），这样能直接启动AME并导入当前Ae项目中的合成：
 
-（但修改当前的Ae项目文件并不会影响AME，因为AME接收到的是当时的项目副本）
+（以这种方式启动AME后，在Ae中修改打开的项目并不会影响AME中的项目，因为AME接收到的是当时的项目文件副本）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
+
+<br/>
 
 * 你也可以自行打开AME，找到菜单栏 -`添加源`（Ctrl+大写字母I）；
 
@@ -400,46 +398,48 @@ Adobe Media Encoder
 
 源视频信息：
 ```
-*Suffix		: .mov
-Codec ID/Info	: CineForm High-Definition (HD) wavelet codec
-*Frame Count	: 96
-Bit rate	: 98.4 Mb/s
-*Width:Height	: 1920 : 1080 pixels [16:9]
-Frame rate	: 25.000 FPS [Constant]
-Color space	: YUV
-Scan type	: Progressive
+*Suffix       : .mov
+Codec ID/Info : CineForm High-Definition (HD) wavelet codec
+*Frame Count  : 96
+Bit rate      : 98.4 Mb/s
+*Width:Height : 1920 : 1080 pixels [16:9]
+Frame rate    : 25.000 FPS [Constant]
+Color space   : YUV
+Scan type     : Progressive
 ```
 AME导出配置：
 ```
-Quality		: 100
-Width:Height	: 1920:1080 / 960:540 / 480:270
-Frame Rate	: 25
-Field Order	: Progressive
-Aspect Ratio	: 1.0
+Quality      : 100
+Width:Height : 1920:1080 / 960:540 / 480:270
+Frame Rate   : 25
+Field Order  : Progressive
+Aspect Ratio : 1.0
 ```
 Ps导出配置：
 
 （[界面名称参考1](https://help.adobe.com/zh_CN/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)；[界面名称参考2](https://help.adobe.com/zh_CN/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)）
 ```
 优化
-	减低颜色深度算法	: 可选择
-	颜色		: 256
-	仿色算法		: 扩散
-	仿色		: 100%
-	透明度		: True
-	杂边		: #FFFFFF
-	透明度仿色	: 无透明度仿色
-	数量		: Disable
-	交错		: False
-	Web靠色		: 0%
-	损耗		: 0% / 15%
+ | - 减低颜色深度算法 : 可选择
+ | - 颜色            : 256
+ | - 仿色算法        : 扩散
+ | - 仿色            : 100%
+ | - 透明度          : True
+ | - 杂边            : #FFFFFF
+ | - 透明度仿色       : 无透明度仿色
+ | - 数量            : Disable
+ | - 交错            : False
+ | - Web靠色         : 0%
+ | - 损耗            : 0% / 15%
+ 
 颜色表
-	转换为sRGB	: True
-	预览		: 显示器颜色
-	元数据		: 版权和联系信息
+ | - 转换为sRGB      : True
+ | - 预览            : 显示器颜色
+ | - 元数据          : 版权和联系信息
+ 
 图像大小
-	W:H		: 1920:1080 / 960:540 / 480:270
-	品质		: 两次立方
+ | - W:H             : 1920:1080 / 960:540 / 480:270
+ | - 品质            : 两次立方
 ```
 对比：
 
@@ -451,7 +451,7 @@ Ps导出配置：
 
 结论：
 
-对于文件大小要求较高（比如知乎限制图片大小不得超过5MB）：
+对于文件大小要求较高（例如知乎限制图片大小不得超过5MB）：
 ```
 Ps 128/256色 15损耗 较低分辨率
 ```
@@ -472,9 +472,17 @@ AME/Pr 100Quality 完整分辨率
 
 官方介绍页：[https://aescripts.com/gifgun/](https://aescripts.com/gifgun/)
 
-相关教程：[https://www.ui.cn/detail/158270.html](https://www.ui.cn/detail/158270.html)
+相关教程：
 
-可能会出现的问题（暂无解决方法，可能是不支持Win7？）：[https://zhidao.baidu.com/question/1370828323868744179.html](https://zhidao.baidu.com/question/1370828323868744179.html)
+1. [AE脚本插件《gifGun》的安装使用教程以及错误提示的解决-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/158270.html)
+
+2. [AE CC2017直接导GIF插件—GifGun_1.5.1-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/271758.html)
+
+3. [Mac版本AE CC 2018脚本插件GIF GUN分享-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/297944.html)
+
+4. [用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/159691.html)
+
+可能会出现的问题（暂无解决方法，可能是不支持某些Win7或者低于CS5的Ae？）：[gifgun插件安装不了，每次安装都会出现这个对话，求解。。。\_百度知道](https://zhidao.baidu.com/question/1370828323868744179.html)
 
 <br/>
 
@@ -484,27 +492,31 @@ AME/Pr 100Quality 完整分辨率
 
 官方介绍页：[https://videohive.net/item/gif-magick-after-effects-script/14032323](https://videohive.net/item/gif-magick-after-effects-script/14032323)
 
-相关教程：[https://www.ui.cn/detail/159691.html](https://www.ui.cn/detail/159691.html)
+相关教程：
+
+1. [教你轻松AE导出GIF 内含安装包-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/188372.html)
+
+2. [用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/159691.html)
 
 <br/>
 
 * aw_PreviewGenerator
 
+（下边这个动图来自[脚本制作者](https://camo.envatousercontent.com/fa824a1522c64c0a31e751694b046f4a6c3b4045/687474703a2f2f7370796c6162732e6f72672f686976652f70672f6465736372697074696f6e2f696d6167655f305f302e676966)）
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-d83be0899a190e6ff2d40f10ea2589c2.gif)
+
 官方介绍页：[https://videohive.net/item/aw_previewgenerator-after-effects-script/14081377](https://videohive.net/item/aw_previewgenerator-after-effects-script/14081377)
 
 暂无相关教程。
-
-<br/>
-
-注意，本文暂不对以上三款Ae脚本做更多的说明。
 
 ----
 
 # 异常处理
 
-* 如果你在`存储为Web所用格式（旧版）...`导出时选择覆盖现有文件，但导出结束后文件没有发生变化，也没有任何提示，这就表明旧文件可能被占用了。你可以尝试重新启动计算机来解决这个问题；
+* 如果你在`存储为Web所用格式（旧版）...`导出时选择覆盖现有文件，但导出结束后文件没有发生变化，也没有任何提示，这就表明旧文件可能被占用了（我这边比较常见的是在QQ中以图片形式发送文件后会继续被QQ相关进程占用）。你可以尝试重新启动计算机来解决这个问题；
 
-* 不同版本的Ae、Pr、Ps、AME间存在的兼容性问题会让许多操作无法继续，你可以尝试将软件间传递的文件转换为兼容性更高的类型，例如PNG序列帧，或者GoPro CineForm编码、QuickTime格式的视频，等等。
+* 在不同版本的Ae、Pr、Ps、AME间进行一些操作（例如互相调用项目文件等）可能会因兼容性问题而失败，你可以尝试使用其它的媒介（例如PNG序列帧、QuickTime格式的视频等）来手动完成操作。
 
 # 注意事项
 
@@ -528,18 +540,20 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * 如果你需要将GIF动画文件置于Web服务器、FTP服务器等位置，或者需要将GIF动画文件嵌入各平台应用程序内，请确认你的文件能够被相关程序逻辑正确地处理；
 * 本文中给出的各种方法都指向“从Ae导出GIF”这个目标，忽略了一路上大量其它的详细设置，所以需要你自己去查找、学习。首先你需要Adobe官方的用户指南，以Ae为例，在菜单栏 -“帮助”-“After Effects帮助...”（F1），在打开的网页里单击“用户指南”，开始学习：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-54025408ef9bdc3b480ed23ebdbcdad9.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-afdd380aef793fb79156d38c36a8f68e.jpg)
 
 # 未解决的问题
 
 * Ps中`时间轴`面板的`优化动画`选项有何用？[https://helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames](https://helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames)
 * [photoshop中帧动画和时间轴的区别](https://zhidao.baidu.com/question/571446763.html)
-* Pr/AME一定无法导出带Alpha的GIF了？
 * Pr/AME对于动画“速度”的影响；
+* Pr/AME一定无法导出带Alpha的GIF了？
 * Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
 * [Ae的GifGun插件怎么才能导出透明背景的gif？ - 知乎](https://www.zhihu.com/question/55557663)
 * Ps的`文件File`-`导入Import`-`视频帧到图层...Video Frames to Layers`，为何一直没在helpx上看到？？？
-* `存储为Web所用格式（旧版）...`里的`确定`到底有何用？
+* ui.cn httpS -> http
+* Aep -> Pr/AME 直接导会生成副本嘛？
+* AME/Pr质量与最终质量&文件大小的关系
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
@@ -627,17 +641,15 @@ Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importin
 
 [@吃生葱会流鼻血吗](https://www.zhihu.com/people/411f6a8f47dc572f8387c3fb7bdc55b3) 关于“Ps导入序列帧方法”的提示；
 
-本文Alpha之前：
+<br/>
+
+本文章：
 
 [@陈璇](https://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了“Ae CS4”的截图；
 
 [@horbyn4zZ](https://www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246) 协助测试Aep兼容性。
 
-本文Beta之前：
-
-[@呆槑](http://www.zhihu.com/people/95965bf3751fd054488859cc531533a8)、[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d)、[@horbyn4zZ](http://www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246)、[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994)、[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d)、[@佘朝光](http://www.zhihu.com/people/b02e779bbc76647a26a7472cb6247fb4) 提供了全文检查；
-
-本文Gamma之前：
+[@呆槑](http://www.zhihu.com/people/95965bf3751fd054488859cc531533a8) 、[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d) 、[@horbyn4zZ](http://www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246) 、[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994) 、[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 、[@佘朝光](http://www.zhihu.com/people/b02e779bbc76647a26a7472cb6247fb4) 提供了全文检查；
 
 [@陈璇](http://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了全文检查。
 
@@ -653,6 +665,6 @@ Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importin
 
 <br/>
 
-修改于：18:25 2018/02/17
+修改于：16:56 2018/03/05
 
 禁止转载。
