@@ -12,7 +12,7 @@
 
 本文章也存在于GitHub仓库：
 
-[https://github.com/pzhlkj6612/ZhihuPost-31567795](https://github.com/pzhlkj6612/ZhihuPost-31567795/tree/NoOldAe)
+[https://github.com/pzhlkj6612/ZhihuPost-31567795](https://github.com/pzhlkj6612/ZhihuPost-31567795)
 
 <br/>
 
