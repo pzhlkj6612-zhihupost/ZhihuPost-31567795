@@ -474,13 +474,13 @@ AME/Pr 100Quality 完整分辨率
 
 相关教程：
 
-[AE脚本插件《gifGun》的安装使用教程以及错误提示的解决-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/158270.html)
+1. [AE脚本插件《gifGun》的安装使用教程以及错误提示的解决-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/158270.html)
 
-[AE CC2017直接导GIF插件—GifGun_1.5.1-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/271758.html)
+2. [AE CC2017直接导GIF插件—GifGun_1.5.1-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/271758.html)
 
-[Mac版本AE CC 2018脚本插件GIF GUN分享-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/297944.html)
+3. [Mac版本AE CC 2018脚本插件GIF GUN分享-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/297944.html)
 
-[用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/159691.html)
+4. [用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/159691.html)
 
 可能会出现的问题（暂无解决方法，可能是不支持某些Win7或者低于CS5的Ae？）：[gifgun插件安装不了，每次安装都会出现这个对话，求解。。。\_百度知道](https://zhidao.baidu.com/question/1370828323868744179.html)
 
@@ -494,13 +494,17 @@ AME/Pr 100Quality 完整分辨率
 
 相关教程：
 
-[教你轻松AE导出GIF 内含安装包-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/188372.html)
+1. [教你轻松AE导出GIF 内含安装包-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/188372.html)
 
-[用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/159691.html)
+2. [用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/159691.html)
 
 <br/>
 
 * aw_PreviewGenerator
+
+（下边这个动图来自[脚本制作者](https://camo.envatousercontent.com/fa824a1522c64c0a31e751694b046f4a6c3b4045/687474703a2f2f7370796c6162732e6f72672f686976652f70672f6465736372697074696f6e2f696d6167655f305f302e676966)）
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/NoOldAe/pic_zhimg_com/v2-d83be0899a190e6ff2d40f10ea2589c2.gif)
 
 官方介绍页：[https://videohive.net/item/aw_previewgenerator-after-effects-script/14081377](https://videohive.net/item/aw_previewgenerator-after-effects-script/14081377)
 
