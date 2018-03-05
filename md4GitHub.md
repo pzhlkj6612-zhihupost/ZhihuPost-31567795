@@ -645,13 +645,11 @@ Ps视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importin
 
 本文章：
 
-[@陈璇](https://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了“Ae CS4”的截图；
-
 [@horbyn4zZ](https://www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246) 协助测试Aep兼容性。
 
 [@呆槑](http://www.zhihu.com/people/95965bf3751fd054488859cc531533a8) 、[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d) 、[@horbyn4zZ](http://www.zhihu.com/people/ce7fa34ae305a5bfc099680e656e0246) 、[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994) 、[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 、[@佘朝光](http://www.zhihu.com/people/b02e779bbc76647a26a7472cb6247fb4) 提供了全文检查；
 
-[@陈璇](http://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了全文检查。
+[@陈璇](http://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了Ae CS4的截图以及全文检查。
 
 <br/>
 
