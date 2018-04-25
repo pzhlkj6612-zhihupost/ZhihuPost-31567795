@@ -549,13 +549,14 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 * Pr/AME对于动画“速度”的影响；
 * Pr/AME一定无法导出带Alpha的GIF了？
 * Ae导出RGBA的psd序列，但在Ps里打开看到背景是有颜色的（Pr、Ae打开是有Alpha的的），经测试，psd中的背景色是Ae合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
+
 * [Ae的GifGun插件怎么才能导出透明背景的gif？ - 知乎](https://www.zhihu.com/question/55557663)
 * Ps的`文件File`-`导入Import`-`视频帧到图层...Video Frames to Layers`，为何一直没在helpx上看到？？？
 * ui.cn httpS -> http
 * Aep -> Pr/AME 直接导会生成副本嘛？
 * AME/Pr质量与最终质量&文件大小的关系
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
 ----
 
