@@ -164,7 +164,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-7924af1603178b72e582a291b75bbe8b.gif)
 
-其实你可能会发现，丢弃 4/5 的帧也不太影响观感，所以你可以试着增加 x 的值，这样既能有效地加快 Ps 的处理速度、节省时间，又能降低最终生成的GIF动画文件的大小。
+其实你可能会发现，丢弃 4/5 的帧也不太影响观感，所以你可以试着增加 x 的值，这样既能有效地加快 Ps 的处理速度、节省时间，又能降低最终生成的 GIF 动画文件的大小。
 
 注意，如果你启用了“丢帧”，就一定记牢 x 的值，稍后会用到。
 
@@ -174,7 +174,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-bc937f67938eb4547053d6a90b98e457.jpg)
 
-意思是：
+它们的含义是：
 
 1. 最终导入到 Ps 中的总帧数超过了 300；
 2. 最终导入到 Ps 中的总帧数超过了 500。
@@ -261,6 +261,8 @@ Adobe Media Encoder
 * 通常，GIF 并不需要太高的分辨率，可以在`图像大小`处按需调整（只调整`百分比`可能会比较方便）；
 * `动画`-`循环选项`，按需选择`一次`、`永远`或`其它...`；
 * 其它的保持默认（有更好的建议请提出来）；
+
+<br/>
 
 最后，单击底部的`存储...`（不要点`完成`），选一个你能找到的文件夹和文件名保存文件。
 
@@ -449,6 +451,8 @@ Ps 导出配置：
  | - W:H             : 1920:1080 / 960:540 / 480:270
  | - 品质            : 两次立方
 ```
+<br/>
+
 对比：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-114e93a3bd4c66c720ce94ca07614244.jpg)
@@ -456,6 +460,8 @@ Ps 导出配置：
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-0e69b787a4397dcd703acd5bde09c9ca.jpg)
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-0c7dda9e7a296c4799ae58283c3cfd9e.jpg)
+
+<br/>
 
 结论：
 
