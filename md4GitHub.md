@@ -78,7 +78,7 @@ Adobe Media Encoder
 
 # 直接导出 GIF（仅介绍）
 
-早于 Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History)) 版本的 Ae 支持导出 GIF 动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本 Ae，所以这一部分仅给出要点。我使用的是 Ae CS4(9.0.1)：
+早于 Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History)) 版本的 Ae 支持导出 GIF 动画（[官方文档（内容已改变）](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本 Ae，所以这一部分仅给出要点。我使用的是 Ae CS4(9.0.1)：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
 
@@ -88,7 +88,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-6da37738cd74d11773d91f70734d991c.jpg)
 
-[Adobe 官方的用户指南](https://helpx.adobe.com/cn/after-effects/user-guide.html) > [渲染和导出](https://helpx.adobe.com/cn/after-effects/user-guide.html?topic=/cn/zh-Hans/after-effects/morehelp/exporting_publishing_rendering.ug.js) > [渲染和导出基础知识](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html) > [支持的输出格式](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html#supported_output_formats) 中提到：
+[After Effects 用户指南](https://helpx.adobe.com/cn/after-effects/user-guide.html) > [渲染和导出](https://helpx.adobe.com/cn/after-effects/user-guide.html?topic=/cn/zh-Hans/after-effects/morehelp/exporting_publishing_rendering.ug.js) > [在 After Effects CC 中进行渲染和导出的基础知识](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html) > [支持的输出格式](https://helpx.adobe.com/cn/after-effects/using/basics-rendering-exporting.html#supported_output_formats) 中提到：
 
 > 要创建动画 GIF 格式的影片，请首先从 After Effects 渲染和导出 QuickTime 影片。然后，将 QuickTime 影片导入 Photoshop，并且将影片导出为动画 GIF。
 
