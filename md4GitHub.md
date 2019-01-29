@@ -425,7 +425,7 @@ Aspect Ratio : 1.0
 ```
 Ps 导出配置：
 
-（下边的各个项目都是`存储为 Web 所用格式`窗口中的选项，可以参考[说明 1（原链接已失效）](https://web.archive.org/web/20171016220446/http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)、[说明 2（原链接已失效）](https://web.archive.org/web/20171019152617/http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)、[类似功能在 Adobe Animate 中的说明](https://helpx.adobe.com/animate/using/optimization-options-for-images-and-animated-gifs.html#GIFandPNG8optimizationoptions)）
+（下边的各个项目都是`存储为 Web 所用格式`窗口中的选项，可以参考[说明 1（原链接已失效）](https://web.archive.org/web/20171016220446/http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)、[说明 2（原链接已失效）](https://web.archive.org/web/20171019152617/http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)、[类似功能在 Adobe Animate 中的说明](https://helpx.adobe.com/cn/animate/using/optimization-options-for-images-and-animated-gifs.html#GIFandPNG8optimizationoptions)）
 ```
 优化
  | - 减低颜色深度算法 : 可选择
