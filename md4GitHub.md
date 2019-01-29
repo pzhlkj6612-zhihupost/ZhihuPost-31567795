@@ -258,9 +258,7 @@ Adobe Media Encoder
 
 最后，单击底部的`存储...`（不要点`完成`），选一个你能找到的文件夹和文件名保存文件。
 
-如果出现以下警告，点`确定`就好：
-
-（不建议你将 GIF 动画文件保存到存在包含[非拉丁字符](https://www.baidu.com/s?wd=%E9%9D%9E%E6%8B%89%E4%B8%81%E5%AD%97%E7%AC%A6)的路径）
+如果出现以下警告，点`确定`就好：（不建议你将 GIF 动画文件保存到存在包含[非拉丁字符](https://www.baidu.com/s?wd=%E9%9D%9E%E6%8B%89%E4%B8%81%E5%AD%97%E7%AC%A6)的路径）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-9e995dbfc6115cde8123d359b0abef0f.jpg)
 
@@ -270,7 +268,7 @@ Adobe Media Encoder
 
 * `存储...`是“输出文件并保存当前配置（以后可以一直用）再关闭窗口”；
 * `完成`是“保存当前配置（同上）并关闭窗口”；
-* `取消`是“放弃本次配置修改（如果有）并关闭窗口”。保存的配置（在Win10下的PsCC2018）会被写入`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018 Settings\Save for Web Prefs.psp`，`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018\Recently Used Optimizations.irs`也会被修改。
+* `取消`是“放弃本次配置修改（如果有）并关闭窗口”。保存的配置（在 Windows 10 下的 Ps CC2018）会被写入`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018 Settings\Save for Web Prefs.psp`，`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018\Recently Used Optimizations.irs`也会被修改。
 
 有时，从`存储为 Web 所用格式`中导出并覆盖已有文件时，会发现旧文件并没有被覆盖，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
 
@@ -395,9 +393,7 @@ Frame Rate   : 25
 Field Order  : Progressive
 Aspect Ratio : 1.0
 ```
-Ps 导出配置：
-
-（`存储为 Web 所用格式`窗口中各选项的[说明 1（原链接已失效）](https://web.archive.org/web/20171016220446/http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)、[说明 2（原链接已失效）](https://web.archive.org/web/20171019152617/http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)、[类似功能在 Adobe Animate 中的说明](https://helpx.adobe.com/animate/using/optimization-options-for-images-and-animated-gifs.html#GIFandPNG8optimizationoptions)）
+Ps 导出配置：（`存储为 Web 所用格式`窗口中各选项的[说明 1（原链接已失效）](https://web.archive.org/web/20171016220446/http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)、[说明 2（原链接已失效）](https://web.archive.org/web/20171019152617/http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)、[类似功能在 Adobe Animate 中的说明](https://helpx.adobe.com/animate/using/optimization-options-for-images-and-animated-gifs.html#GIFandPNG8optimizationoptions)）
 ```
 优化
  | - 减低颜色深度算法 : 可选择
@@ -462,7 +458,7 @@ Ps 导出配置：
 
 4. [用AE轻松输出GIF动图脚本-带详细安装教程-UI中国-专业用户体验设计平台](https://www.ui.cn/detail/159691.html)
 
-可能会出现的问题（暂无解决方法，可能是不支持某些Win7或者低于CS5的Ae？）：[gifgun插件安装不了，每次安装都会出现这个对话，求解。。。\_百度知道](https://zhidao.baidu.com/question/1370828323868744179.html)
+可能会出现的问题（暂无解决方法，可能是不支持某些 Windows 7 或者低于 CS5 的 Ae？）：[gifgun插件安装不了，每次安装都会出现这个对话，求解。。。\_百度知道](https://zhidao.baidu.com/question/1370828323868744179.html)
 
 <br/>
 
@@ -482,7 +478,7 @@ Ps 导出配置：
 
 * aw_PreviewGenerator
 
-（下边这个动图来自aw_PreviewGenerator 的作者，[链接](https://camo.envatousercontent.com/fa824a1522c64c0a31e751694b046f4a6c3b4045/687474703a2f2f7370796c6162732e6f72672f686976652f70672f6465736372697074696f6e2f696d6167655f305f302e676966)）
+（下边这个动图来自aw_PreviewGenerator 的作者，[原图链接](https://camo.envatousercontent.com/fa824a1522c64c0a31e751694b046f4a6c3b4045/687474703a2f2f7370796c6162732e6f72672f686976652f70672f6465736372697074696f6e2f696d6167655f305f302e676966)）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-d83be0899a190e6ff2d40f10ea2589c2.gif)
 
@@ -512,7 +508,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 ```
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-17500d563567c06a58b094c9a991e584.jpg)
 
-* Ps的`导入`-`视频帧到图层`的那个`限制为每隔 x 帧`，中文翻译并不准确，[英文原文](https://helpx.adobe.com/photoshop/how-to/make-animated-gif.html#optional__import_a_video)是“Limit To Every x Frames”，也就是“每 x 帧取一帧”，这就很明白了，同时也表明了为何会有大于等于2这个限制：
+* Ps 的`导入`-`视频帧到图层`的那个`限制为每隔 x 帧`，中文翻译并不准确，[英文原文](https://helpx.adobe.com/photoshop/how-to/make-animated-gif.html#optional__import_a_video)是“Limit To Every x Frames”，也就是“每 x 帧取一帧”，这就很明白了，同时也表明了为何会有大于等于 2 这个限制：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-77190cbc0ed214de27689dd592cdc2f7.jpg)
 
