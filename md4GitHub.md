@@ -78,9 +78,7 @@ Adobe Media Encoder
 
 # 直接导出 GIF（仅介绍）
 
-早于 Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History)) 版本的 Ae 支持导出 GIF 动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本 Ae，所以这一部分仅给出要点。
-
-我使用的是 Ae CS4(9.0.1)：
+早于 Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History)) 版本的 Ae 支持导出 GIF 动画（[官方文档](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本 Ae，所以这一部分仅给出要点。我使用的是 Ae CS4(9.0.1)：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
 
@@ -104,11 +102,13 @@ Adobe Media Encoder
 
 **█ 特征**
 
-画质可调，可设定 GIF 循环次数，可保留 Alpha 通道（透明度信息）；
+操作较复杂，软件处理缓慢，操作耗时较长；
 
-软件处理缓慢，操作耗时较长，且以`视频帧`方式导入的素材会有长度限制。
+参数繁多，可设定 GIF 循环次数，可保留 Alpha 通道（透明度信息），以`视频帧`方式导入的素材会有长度限制。
 
-*（Photoshop 的内容我还没有完全弄明白，但目前已写出的内容是没有问题、经得起验证的）*
+（Photoshop 的内容我还没有完全弄明白，但目前已写出的内容是没有问题、经得起验证的）
+
+<br/>
 
 **█ 首先**
 
@@ -136,7 +136,7 @@ Adobe Media Encoder
 
 菜单栏 -`文件`-`导入`-`视频帧到图层...`，找到并选中刚才导出的视频，单击`打开`：
 
-（不要在这里多选文件，它只会导入`文件名`处的第一个文件）
+（不要在这里多选文件，Ps 只会导入`文件名`处的第一个文件）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b3a354c0b757166b1fe3cc6da9fa6f95.jpg)
 
@@ -215,6 +215,8 @@ Adobe Media Encoder
 
 你还可以做其它的调整，更多内容请参阅：[创建帧动画](https://helpx.adobe.com/cn/photoshop/using/creating-frame-animations.html)
 
+<br/>
+
 **█ 导入并处理 方法二 “视频图层”**
 
 菜单栏 -`文件`-`打开`（Ctrl+O），找到并选中刚才导出的视频，单击`打开`：
@@ -233,7 +235,9 @@ Adobe Media Encoder
 
 **█ 导出**
 
-做好所有调整后，可以准备输出了。菜单栏 -`文件`-`导出`-`存储为 Web 所用格式（旧版）...`（Alt+Shift+Ctrl+S）：（这个界面可能会很卡，所以操作不要太快，等等进度条）
+做好所有调整后，可以准备输出了。菜单栏 -`文件`-`导出`-`存储为 Web 所用格式（旧版）...`（Alt+Shift+Ctrl+S）：
+
+（这个界面可能会很卡，所以操作不要太快，等等进度条）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1acba783f80c50e1e4e143f4f82a8710.jpg)
 
@@ -241,7 +245,9 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1e34e68f5ce6e341b240e856da6d8a12.jpg)
 
-* `颜色`一般选择 128 或 256，对比：（在 0 损耗与 15 损耗下）
+* `颜色`一般选择 128 或 256，对比：
+
+（在 0 损耗与 15 损耗下）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-4d2699a7ef51eccd9ef931e4ba6d94b5.jpg)
 
@@ -258,9 +264,13 @@ Adobe Media Encoder
 
 最后，单击底部的`存储...`（不要点`完成`），选一个你能找到的文件夹和文件名保存文件。
 
-如果出现以下警告，点`确定`就好：（不建议你将 GIF 动画文件保存到存在包含[非拉丁字符](https://www.baidu.com/s?wd=%E9%9D%9E%E6%8B%89%E4%B8%81%E5%AD%97%E7%AC%A6)的路径）
+如果出现以下警告，点`确定`就好：
+
+（不建议你将 GIF 动画文件保存到存在包含[非拉丁字符](https://www.baidu.com/s?wd=%E9%9D%9E%E6%8B%89%E4%B8%81%E5%AD%97%E7%AC%A6)的路径）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-9e995dbfc6115cde8123d359b0abef0f.jpg)
+
+<br/>
 
 **█ 注意**
 
@@ -268,7 +278,7 @@ Adobe Media Encoder
 
 * `存储...`是“输出文件并保存当前配置（以后可以一直用）再关闭窗口”；
 * `完成`是“保存当前配置（同上）并关闭窗口”；
-* `取消`是“放弃本次配置修改（如果有）并关闭窗口”。保存的配置（在 Windows 10 下的 Ps CC2018）会被写入`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018 Settings\Save for Web Prefs.psp`，`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018\Recently Used Optimizations.irs`也会被修改。
+* `取消`是“放弃本次配置修改（如果有）并关闭窗口”。保存的配置（在 Windows 10 下的 Ps CC 2018）会被写入`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018 Settings\Save for Web Prefs.psp`，`%APPDATA%\Adobe\Adobe Photoshop CC 2018\Adobe Photoshop CC 2018\Recently Used Optimizations.irs`也会被修改。
 
 有时，从`存储为 Web 所用格式`中导出并覆盖已有文件时，会发现旧文件并没有被覆盖，请参考文末“[异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)”以尝试解决这个问题。
 
@@ -280,27 +290,31 @@ Adobe Media Encoder
 
 **█ 特征**
 
-操作简单，GIF 自动循环；
+操作简单；
 
-无 Alpha 通道；画质一般。
+GIF 自动循环，无 Alpha 通道，画质一般。
+
+<br/>
 
 **█ 注意**
 
 由于 AME 与 Pr 有类似的界面和操作流程，为了缩短文章长度，这一部分会将两款软件“合并”，请仔细阅读。
 
+<br/>
+
 **█ 首先**
 
 保存你的 Ae 项目文件，或者将你的合成导出为 QuickTime 格式的视频。
 
-**█ 启动 AME/Pr 并导入文件**
+<br/>
+
+**█ 启动 AME 或 Pr 并导入文件**
 
 * 你可以在 Ae 中选中你要导出的合成，然后菜单栏 -`文件`-`导出`-`添加到 Adobe Media Encoder 队列...`（Ctrl+Alt+M），这样能直接启动 AME 并导入当前 Ae 项目中的合成：
 
 （以这种方式启动 AME 后，在 Ae 中修改打开的项目并不会影响 AME 中的项目，因为 AME 接收到的是当时的项目文件当时的副本）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b10dc6b6cb9ceec1062db866bdf13c3f.jpg)
-
-<br/>
 
 * 你也可以自行打开 AME，找到菜单栏 -`添加源`（Ctrl+I）；
 
@@ -316,6 +330,8 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b30c19019fe6a8018cd4b66ed5cd7e33.jpg)
 
+<br/>
+
 **█ （Pr 跳过）在 AME 中准备进行导出设置**
 
 现在你可以在 AME 中看到一个条目，它的名称与你导入的视频文件/导入的 Ae 项目中的合成的名称相同，该条目叫作“源”；现在，这个“源”有一个子条目，它是叫作“输出”。
@@ -323,6 +339,8 @@ Adobe Media Encoder
 此时我的这个“输出”的设置是导出 H.264 编码的 mp4 文件，要进行调整——右击这个输出-`导出设置...`：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-2d493528940b13398368a54acc357e8f.jpg)
+
+<br/>
 
 **█ （AME 跳过）在 Pr 中处理素材并准备进行导出设置**
 
@@ -333,6 +351,8 @@ Adobe Media Encoder
 在“项目”面板中选中你要导出的素材或序列（仔细分辨哪一项是需要被导出的），菜单栏 -`导出`-`媒体`（Ctrl+M）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-2077aa2a91c141f002c74ad4d1462a2b.jpg)
+
+<br/>
 
 **█ 进行导出设置**
 
@@ -350,6 +370,8 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-8bf2a32022b03d568fdf6f5a08553a82.jpg)
 
+<br/>
+
 **█ （Pr 跳过）从 AME 中导出**
 
 完成设置后，单击`确定`返回 AME 主界面。
@@ -358,13 +380,17 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-558a9d86f3687a998ae03bd839013f38.jpg)
 
+<br/>
+
 **█ （AME 跳过）从 Pr 中导出**
 
-完成设置后，单击`导出`（别直接敲回车，不然会尝试启动 AME）。
+完成设置后，单击`导出`（因为窗口焦点的原因，不要直接敲回车，否则会尝试启动 AME）。
+
+<br/>
 
 **█ 注意**
 
-在“启动 AME/Pr 并导入文件”这一步导入 Ae 项目文件时，如果`导入 After Effects 合成`窗口中出现`无法打开项目`的提示，则说明 Ae 项目文件的版本高于 AME/Pr 的版本，无法完成导入：
+在“启动 AME 或 Pr 并导入文件”这一步导入 Ae 项目文件时，如果`导入 After Effects 合成`窗口中出现`无法打开项目`的提示，则说明 Ae 项目文件的版本高于 AME 或 Pr 的版本，无法完成导入：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-a7c5a130e8eeef81e8885fae739b1a85.jpg)
 
@@ -397,7 +423,9 @@ Frame Rate   : 25
 Field Order  : Progressive
 Aspect Ratio : 1.0
 ```
-Ps 导出配置：（`存储为 Web 所用格式`窗口中各选项的[说明 1（原链接已失效）](https://web.archive.org/web/20171016220446/http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)、[说明 2（原链接已失效）](https://web.archive.org/web/20171019152617/http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)、[类似功能在 Adobe Animate 中的说明](https://helpx.adobe.com/animate/using/optimization-options-for-images-and-animated-gifs.html#GIFandPNG8optimizationoptions)）
+Ps 导出配置：
+
+（下边的各个项目都是`存储为 Web 所用格式`窗口中的选项，可以参考[说明 1（原链接已失效）](https://web.archive.org/web/20171016220446/http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)、[说明 2（原链接已失效）](https://web.archive.org/web/20171019152617/http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)、[类似功能在 Adobe Animate 中的说明](https://helpx.adobe.com/animate/using/optimization-options-for-images-and-animated-gifs.html#GIFandPNG8optimizationoptions)）
 ```
 优化
  | - 减低颜色深度算法 : 可选择
@@ -431,15 +459,15 @@ Ps 导出配置：（`存储为 Web 所用格式`窗口中各选项的[说明 1�
 
 结论：
 
-对于文件大小要求较高（例如知乎限制图片大小不得超过 5 MB）：
+想要文件在保证质量的情况下尽量小（例如知乎限制图片大小不得超过 5 MB）：
 ```
 使用 Ps，128/256 色，15 损耗，较低分辨率
 ```
 最方便而且质量还不错：
 ```
-使用 AME/Pr，100 Quality，完整分辨率
+使用 AME 或 Pr，100 Quality，完整分辨率
 
-* 要注意 AME/Pr 貌似会影响动画的“速度”，进而影响到总时长。
+* 要注意 AME 或 Pr 貌似会影响动画的“速度”，进而影响到总时长。
 ```
 
 ----
@@ -482,7 +510,7 @@ Ps 导出配置：（`存储为 Web 所用格式`窗口中各选项的[说明 1�
 
 * aw_PreviewGenerator
 
-（下边这个动图来自aw_PreviewGenerator 的作者，[原图链接](https://camo.envatousercontent.com/fa824a1522c64c0a31e751694b046f4a6c3b4045/687474703a2f2f7370796c6162732e6f72672f686976652f70672f6465736372697074696f6e2f696d6167655f305f302e676966)）
+（下边这个动图来自 aw_PreviewGenerator 的作者，[原图链接](https://camo.envatousercontent.com/fa824a1522c64c0a31e751694b046f4a6c3b4045/687474703a2f2f7370796c6162732e6f72672f686976652f70672f6465736372697074696f6e2f696d6167655f305f302e676966)）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-d83be0899a190e6ff2d40f10ea2589c2.gif)
 
@@ -496,7 +524,7 @@ Ps 导出配置：（`存储为 Web 所用格式`窗口中各选项的[说明 1�
 
 * 如果你在`存储为 Web 所用格式`导出时选择覆盖现有文件，但导出结束后文件没有发生变化，也没有任何提示，这就表明旧文件可能被占用了（我这边比较常见的是在 QQ 中以图片形式发送文件后会继续被 QQ 相关进程占用）。你可以尝试重新启动计算机来解决这个问题；
 
-* 在不同版本的 Ae、Pr、Ps、AME 间进行一些操作（例如互相调用项目文件等）可能会因兼容性问题而失败，你可以尝试使用其它的媒介（例如 PNG 序列帧、QuickTime 格式的视频等）来手动完成操作。
+* 在不同版本的 Ae、Ps、AME 和 Pr 间进行一些操作（例如互相调用项目文件等）可能会因兼容性问题而失败，你可以尝试使用其它的媒介（例如 PNG 序列帧、QuickTime 格式的视频等）来手动完成操作。
 
 # 注意事项
 
@@ -526,16 +554,16 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 
 * Ps 中`时间轴`面板的`优化动画`选项有何用？[https://helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames](https://helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames)
 * [photoshop中帧动画和时间轴的区别](https://zhidao.baidu.com/question/571446763.html)
-* Pr/AME 对于动画“速度”的影响；
-* Pr/AME 一定无法导出带 Alpha 的 GIF 了？
+* AME 或 Pr 对于动画“速度”的影响；
+* AME 或 Pr 一定无法导出带 Alpha 的 GIF 了？
 * Ae 导出 RGBA 的 psd 序列，但在 Ps 里打开看到背景是有颜色的（Pr、Ae 打开是有 Alpha 的），经测试，psd 中的背景色是 Ae 合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fc2e00118edb2c706425c6c381c5442a.jpg)
 
 * [Ae的GifGun插件怎么才能导出透明背景的gif？ - 知乎](https://www.zhihu.com/question/55557663)
 * Ps 的`文件 File`-`导入 Import`-`视频帧到图层... Video Frames to Layers`，为何一直没在 helpx 上看到？？？
-* Aep -> Pr/AME 直接导会生成副本嘛？
-* AME/Pr 所设置质量（Quality）与文件最终质量和大小的关系
+* Aep -> AME 或 Pr 直接导会生成副本嘛？
+* AME 或 Pr 导出时设置的质量（Quality）与文件最终质量和大小的关系
 
 ----
 
