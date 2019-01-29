@@ -32,7 +32,9 @@
 - [目录](#%E7%9B%AE%E5%BD%95)
 - [概述](#%E6%A6%82%E8%BF%B0)
 - [直接导出 GIF（仅介绍）](#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BA-gif%E4%BB%85%E4%BB%8B%E7%BB%8D)
-- [用 Ps、AME、Pr 辅助 Ae 导出 GIF](#%E7%94%A8-psamepr-%E8%BE%85%E5%8A%A9-ae-%E5%AF%BC%E5%87%BA-gif)
+- [用 Ps 配合 Ae 导出 GIF](#%E7%94%A8-ps-%E9%85%8D%E5%90%88-ae-%E5%AF%BC%E5%87%BA-gif)
+- [用 AME 或 Pr 配合 Ae 导出 GIF](#%E7%94%A8-ame-%E6%88%96-pr-%E9%85%8D%E5%90%88-ae-%E5%AF%BC%E5%87%BA-gif)
+- [Ps 与 AME 或 Pr 导出文件的效果对比](#ps-%E4%B8%8E-ame-%E6%88%96-pr-%E5%AF%BC%E5%87%BA%E6%96%87%E4%BB%B6%E7%9A%84%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94)
 - [用 Ae 脚本导出 GIF（仅介绍）](#%E7%94%A8-ae-%E8%84%9A%E6%9C%AC%E5%AF%BC%E5%87%BA-gif%E4%BB%85%E4%BB%8B%E7%BB%8D)
 - [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
 - [注意事项](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
@@ -84,10 +86,6 @@ Adobe Media Encoder
 
 <br/>
 
-<br/>
-
-# 用 Ps、AME、Pr 辅助 Ae 导出 GIF
-
 自 CS5 版本开始，Ae 不再支持导出 GIF 动画了，现在`渲染队列`-`输出模块`打开`输出组件设置`，在`主要选项`-`格式`中找不到`动画 GIF`：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-6da37738cd74d11773d91f70734d991c.jpg)
@@ -98,11 +96,11 @@ Adobe Media Encoder
 
 这表示，我们需要其它软件（例如 Ps）的帮助才能获得 GIF。其实不光是“QuickTime 影片”，通过其它的媒介（例如序列帧）最终也能得到 GIF，但为了避免内容变得杂乱，我有意去掉了“序列帧”相关的内容，感兴趣的朋友可以自己做尝试。
 
-以下是 Ps、AME、Pr 三款软件配合 Ae 导出 GIF 动画文件的方法。要注意，这些方法不只用于辅助 Ae，还能直接处理一般的视频文件；
+以下是 Ps、AME、Pr 三款软件配合 Ae 导出 GIF 动画文件的方法。要注意，这些方法不仅能用于处理 Ae 中的媒体，还能直接处理一般的视频文件；
 
-<br/>
+----
 
-* Adobe Photoshop
+# 用 Ps 配合 Ae 导出 GIF
 
 **█ 特征**
 
@@ -276,7 +274,9 @@ Adobe Media Encoder
 
 <br/>
 
-* Adobe Media Encoder/Premiere Pro
+<br/>
+
+# 用 AME 或 Pr 配合 Ae 导出 GIF
 
 **█ 特征**
 
@@ -372,7 +372,9 @@ Adobe Media Encoder
 
 <br/>
 
-* 相互比较
+<br/>
+
+# Ps 与 AME 或 Pr 导出文件的效果对比
 
 经测试，AME 与 Pr 导出的 GIF 效果几乎没有差别，所以就只用 AME 和 Ps 的来比较了。
 
@@ -440,9 +442,7 @@ Ps 导出配置：（`存储为 Web 所用格式`窗口中各选项的[说明 1�
 * 要注意 AME/Pr 貌似会影响动画的“速度”，进而影响到总时长。
 ```
 
-<br/>
-
-<br/>
+----
 
 # 用 Ae 脚本导出 GIF（仅介绍）
 
