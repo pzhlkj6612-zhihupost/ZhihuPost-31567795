@@ -82,7 +82,9 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
 
-----
+<br/>
+
+<br/>
 
 # 用 Ps、AME、Pr 辅助 Ae 导出 GIF
 
@@ -120,7 +122,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-323514efb5034765077ebccbc448b4c7.jpg)
 
-通常，GIF 并不需要太高的分辨率和帧率，你可以在导出前进行额外的设置（这不影响原合成）。找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。将`合成“xxx”`区域中的`分辨率`改为 1/3、1/4 等；再将`帧速率`区域中的`使用此帧速率`选中，并为其指定一个更低的值（10~25）：
+通常，GIF 并不需要太高的分辨率和帧率，你可以在导出前进行额外的设置（这不影响原合成）。找到`渲染队列`面板中的合成，单击`渲染设置`后的链接，打开`渲染设置`窗口。将`合成“xxx”`区域中的`分辨率`改为 1/3、1/4 等；再将`帧速率`区域中的`使用此帧速率`选中，并为其指定一个更低的值（10 ~ 25）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1bc651dd01ddf76aa7070a52e0352506.jpg)
 
@@ -148,13 +150,13 @@ Adobe Media Encoder
 
 注意红框中的`制作帧动画`，请务必选中它；
 
-注意橙框中的`限制为每隔 x 帧`（`x`在 2~500 的范围内）。这个选项的作用是，是否按一定间隔抽取视频帧来导入 Ps，并丢弃剩下的帧，在这里我称它为“丢帧”。如果启用，那最终导入到 Ps 中的总帧数为：
+注意橙框中的`限制为每隔 x 帧`（x 在 2 ~ 500 的范围内）。这个选项的作用是，是否按一定间隔抽取视频帧来导入 Ps，并丢弃剩下的帧，在这里我称它为“丢帧”。如果启用，那最终导入到 Ps 中的总帧数为：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-fb34a70c32428eac8d22638c7718baf6.jpg)
 
-也就是说，剩下的帧都会被丢弃。这里有一个关于`x`值的演示：
+也就是说，剩下的帧都会被丢弃。这里有一个关于 x 值的演示：
 
-（“Interval”即为`x`的值）
+（“Interval”即为 x 的值）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-9bc58b4ffc57083b7f5987b3007baff2.gif)
 
@@ -164,9 +166,9 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-7924af1603178b72e582a291b75bbe8b.gif)
 
-其实你可能会发现，丢弃 4/5 的帧也不太影响观感，所以你可以试着增加`x`的值，这样既能有效地加快 Ps 的处理速度、节省时间，又能降低最终生成的GIF动画文件的大小。
+其实你可能会发现，丢弃 4/5 的帧也不太影响观感，所以你可以试着增加 x 的值，这样既能有效地加快 Ps 的处理速度、节省时间，又能降低最终生成的GIF动画文件的大小。
 
-注意，如果你启用了“丢帧”，就一定记牢`x`的值，稍后会用到。
+注意，如果你启用了“丢帧”，就一定记牢 x 的值，稍后会用到。
 
 <br/>
 
@@ -248,7 +250,7 @@ Adobe Media Encoder
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-f2ba803575eda32e8ee1faca89de778b.jpg)
 
 * 如果要输出有 Alpha 通道的 GIF，记得勾选`透明度`；
-* 为了导出体积较小但质量还行的 GIF，可以适当调整`损耗`，在 10~20 之间都可以的，实验：
+* 为了导出体积较小但质量还行的 GIF，可以适当调整`损耗`，在 10 ~ 20 之间都可以的，实验：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-80fd6fa615c17a1b0ef9890c2838391a.jpg)
 
@@ -344,7 +346,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-ed46805de0091f6a925d2069500c70a2.jpg)
 
-通常，GIF 并不需要太高的分辨率和帧率，你可以在导出前进行设置（这不影响素材或者 Ae 中的原合成）。将`基本视频设置`区域中`宽度`、`高度`后的勾去掉，并将他俩的值改小（参考左侧的预览框，按需、按比例调整）；再将`帧速率`后的勾去掉，并为其指定一个更低的值（10~15）：
+通常，GIF 并不需要太高的分辨率和帧率，你可以在导出前进行设置（这不影响素材或者 Ae 中的原合成）。将`基本视频设置`区域中`宽度`、`高度`后的勾去掉，并将他俩的值改小（参考左侧的预览框，按需、按比例调整）；再将`帧速率`后的勾去掉，并为其指定一个更低的值（10 ~ 15）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-8bf2a32022b03d568fdf6f5a08553a82.jpg)
 
@@ -438,7 +440,9 @@ Ps 导出配置：（`存储为 Web 所用格式`窗口中各选项的[说明 1�
 * 要注意 AME/Pr 貌似会影响动画的“速度”，进而影响到总时长。
 ```
 
-----
+<br/>
+
+<br/>
 
 # 用 Ae 脚本导出 GIF（仅介绍）
 
