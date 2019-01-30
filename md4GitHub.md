@@ -78,7 +78,7 @@ Adobe Media Encoder
 
 # 直接导出 GIF（仅介绍）
 
-早于 Creative Suite 5([CS5(10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History)) 版本的 Ae 支持导出 GIF 动画（[官方文档（内容已改变）](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本 Ae，所以这一部分仅给出要点。我使用的是 Ae CS4(9.0.1)：
+早于 Creative Suite 5([CS5 (10.0)](https://en.wikipedia.org/wiki/Adobe_After_Effects#History)) 版本的 Ae 支持导出 GIF 动画（[官方文档（内容已改变）](https://helpx.adobe.com/cn/after-effects/kb/supported-file-formats-effects-cs4.html#main__Supported_video_and_animation_file_formats_)），但是你不应该继续使用旧版本 Ae，所以这一部分仅给出要点。我使用的是 Ae CS4 (9.0.1)：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-b5c371feee1601b1a473f88e442fb7fd.jpg)
 
@@ -94,9 +94,13 @@ Adobe Media Encoder
 
 这表示，我们需要其它软件（例如 Ps）的帮助才能获得 GIF。其实不光是“QuickTime 影片”，通过其它的媒介（例如序列帧）最终也能得到 GIF，但为了避免内容变得杂乱，我有意去掉了“序列帧”相关的内容，感兴趣的朋友可以自己做尝试。
 
-以下是 Ps、AME、Pr 三款软件配合 Ae 导出 GIF 动画文件的方法。要注意，这些方法不仅能用于处理 Ae 中的媒体，还能直接处理一般的视频文件；
+<br/>
 
-----
+以下是 Ps、AME、Pr 三款软件配合 Ae 导出 GIF 动画文件的方法。要注意，这些方法不仅能用于处理 Ae 中的媒体，还能直接处理一般的视频文件。
+
+<br/>
+
+<br/>
 
 # 用 Ps 配合 Ae 导出 GIF
 
@@ -106,7 +110,7 @@ Adobe Media Encoder
 
 参数繁多，可设定 GIF 循环次数，可保留 Alpha 通道（透明度信息），以`视频帧`方式导入的素材会有长度限制。
 
-（Photoshop 的内容我还没有完全弄明白，但目前已写出的内容是没有问题、经得起验证的）
+（关于 Ps 的内容我还没有完全弄明白，但目前已写出的内容是没有问题、经得起验证的）
 
 <br/>
 
@@ -559,7 +563,7 @@ JPEG 2000, PNG, Planar RGB, TGA, TIFF
 # 未解决的问题
 
 * Ps 中`时间轴`面板的`优化动画`选项有何用？[https://helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames](https://helpx.adobe.com/cn/photoshop/using/saving-exporting-video-animations.html#optimize_animation_frames)
-* [photoshop中帧动画和时间轴的区别](https://zhidao.baidu.com/question/571446763.html)
+* [photoshop中帧动画和时间轴的区别\_百度知道](https://zhidao.baidu.com/question/571446763.html)
 * AME 或 Pr 对于动画“速度”的影响；
 * AME 或 Pr 一定无法导出带 Alpha 的 GIF 了？
 * Ae 导出 RGBA 的 psd 序列，但在 Ps 里打开看到背景是有颜色的（Pr、Ae 打开是有 Alpha 的），经测试，psd 中的背景色是 Ae 合成的“合成背景色”，为何：（相关问题：[https://www.zhihu.com/question/62864730](https://www.zhihu.com/question/62864730)）
