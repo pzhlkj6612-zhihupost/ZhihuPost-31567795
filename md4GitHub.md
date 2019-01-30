@@ -245,7 +245,7 @@ Adobe Media Encoder
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1acba783f80c50e1e4e143f4f82a8710.jpg)
 
-`存储为 Web 所用格式`窗口中有一些比较关键的设置：
+`存储为 Web 所用格式`窗口中的各个选项的作用，可以参考[说明 1（原链接已失效）](https://web.archive.org/web/20171016220446/http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)、[说明 2（原链接已失效）](https://web.archive.org/web/20171019152617/http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)、[类似功能在 Adobe Animate CC 中的说明](https://helpx.adobe.com/cn/animate/using/optimization-options-for-images-and-animated-gifs.html#GIFandPNG8optimizationoptions)。在这里只列出比较关键的几个：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-1e34e68f5ce6e341b240e856da6d8a12.jpg)
 
@@ -430,8 +430,6 @@ Field Order  : Progressive
 Aspect Ratio : 1.0
 ```
 Ps 导出配置：
-
-（下边的各个项目都是`存储为 Web 所用格式`窗口中的选项，可以参考[说明 1（原链接已失效）](https://web.archive.org/web/20171016220446/http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html#WS9E2C7F1A-87C0-4dae-9C0C-0C2B3C566F84)、[说明 2（原链接已失效）](https://web.archive.org/web/20171019152617/http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479)、[类似功能在 Adobe Animate CC 中的说明](https://helpx.adobe.com/cn/animate/using/optimization-options-for-images-and-animated-gifs.html#GIFandPNG8optimizationoptions)）
 ```
 优化
  | - 减低颜色深度算法 : 可选择
@@ -455,8 +453,6 @@ Ps 导出配置：
  | - W:H             : 1920:1080 / 960:540 / 480:270
  | - 品质            : 两次立方
 ```
-<br/>
-
 对比：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-114e93a3bd4c66c720ce94ca07614244.jpg)
@@ -464,8 +460,6 @@ Ps 导出配置：
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-0e69b787a4397dcd703acd5bde09c9ca.jpg)
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31567795/master/pic_zhimg_com/v2-0c7dda9e7a296c4799ae58283c3cfd9e.jpg)
-
-<br/>
 
 结论：
 
