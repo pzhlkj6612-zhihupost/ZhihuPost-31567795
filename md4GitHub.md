@@ -6,6 +6,10 @@
 
 <br/>
 
+**本文内容正等待大修改，请勿用作生产环境的参考。**
+
+<br/>
+
 本文章内容由我的这个回答处理而来：
 
 [https://www.zhihu.com/question/58159898/answer/167682476](https://www.zhihu.com/question/58159898/answer/167682476)
@@ -674,6 +678,6 @@ Ps 视频图层-[`解释素材`](https://helpx.adobe.com/photoshop/using/importi
 
 <br/>
 
-修改于：17:41 2019/01/29
+修改于：16:50 2019/01/30
 
 禁止转载。
