@@ -16,7 +16,7 @@
 
 本文章也存在于 GitHub 仓库：
 
-[https://github.com/pzhlkj6612/ZhihuPost-31567795](https://github.com/pzhlkj6612/ZhihuPost-31567795)
+[https://github.com/pzhlkj6612-zhihupost/ZhihuPost-31567795](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-31567795)
 
 <br/>
 
@@ -35,11 +35,11 @@
 
 - [目录](#%E7%9B%AE%E5%BD%95)
 - [概述](#%E6%A6%82%E8%BF%B0)
-- [直接导出 GIF（仅介绍）](#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BA-gif%E4%BB%85%E4%BB%8B%E7%BB%8D)
-- [用 Ps 配合 Ae 导出 GIF](#%E7%94%A8-ps-%E9%85%8D%E5%90%88-ae-%E5%AF%BC%E5%87%BA-gif)
-- [用 AME 或 Pr 配合 Ae 导出 GIF](#%E7%94%A8-ame-%E6%88%96-pr-%E9%85%8D%E5%90%88-ae-%E5%AF%BC%E5%87%BA-gif)
-- [Ps 与 AME 或 Pr 导出文件的效果对比](#ps-%E4%B8%8E-ame-%E6%88%96-pr-%E5%AF%BC%E5%87%BA%E6%96%87%E4%BB%B6%E7%9A%84%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94)
-- [用 Ae 脚本导出 GIF（仅介绍）](#%E7%94%A8-ae-%E8%84%9A%E6%9C%AC%E5%AF%BC%E5%87%BA-gif%E4%BB%85%E4%BB%8B%E7%BB%8D)
+- [直接导出 GIF（仅介绍）](#%E7%9B%B4%E6%8E%A5%E5%AF%BC%E5%87%BA-GIF%E4%BB%85%E4%BB%8B%E7%BB%8D)
+- [用 Ps 配合 Ae 导出 GIF](#%E7%94%A8-Ps-%E9%85%8D%E5%90%88-Ae-%E5%AF%BC%E5%87%BA-GIF)
+- [用 AME 或 Pr 配合 Ae 导出 GIF](#%E7%94%A8-AME-%E6%88%96-Pr-%E9%85%8D%E5%90%88-Ae-%E5%AF%BC%E5%87%BA-GIF)
+- [Ps 与 AME 或 Pr 导出文件的效果对比](#Ps-%E4%B8%8E-AME-%E6%88%96-Pr-%E5%AF%BC%E5%87%BA%E6%96%87%E4%BB%B6%E7%9A%84%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94)
+- [用 Ae 脚本导出 GIF（仅介绍）](#%E7%94%A8-Ae-%E8%84%9A%E6%9C%AC%E5%AF%BC%E5%87%BA-GIF%E4%BB%85%E4%BB%8B%E7%BB%8D)
 - [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
 - [注意事项](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
 - [未解决的问题](#%E6%9C%AA%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98)
